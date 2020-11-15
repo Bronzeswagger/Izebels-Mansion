@@ -1,4 +1,4 @@
-# Mansion of Ren Xiongmao
+# Mansion of Izebel the Ren Xiongmao
 IMPORTANT!!!!!
 If you're downloading and extracting the source code zip, be sure to extract the folder inside the first folder so that the file path is Mods/MansionofRenXiongmao instead of Mods/MansionofRenXiongmao/. Otherwise your game will crash!
 
