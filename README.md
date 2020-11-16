@@ -1,4 +1,4 @@
-#IzebelsMansion
+# IzebelsMansion
 IMPORTANT!!!!!
 If you're downloading and extracting the source code zip, be sure to extract the folder inside the first folder so that the file path is Mods/IzebelsMansion instead of Mods/IzebelsMansion/. Otherwise your game will crash!
 
