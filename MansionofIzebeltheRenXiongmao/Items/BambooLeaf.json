@@ -1,5 +1,5 @@
 {
-    "name": "Mari's Tulip Jam Jar (Empty)",
+    "name": "BambooLeaf",
     "itemType": "Key",
     "cost": "0",
     "requires": [ ""],
@@ -11,7 +11,7 @@
                           "Choice": ""
                         }
                       ],
-    "descrip": "Mari's intricately designed jam jar. It's empty, but you can get a refill from Mari herself if need be.",
+    "descrip": "A bamboo leaf that when used by an apothecary, can either used for tea or medicine, works great as an ingredient for a sick panda",
     "perks": [ ""],
     "skills": [ ],
 

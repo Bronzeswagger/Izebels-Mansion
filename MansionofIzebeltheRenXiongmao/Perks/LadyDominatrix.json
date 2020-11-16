@@ -1,6 +1,6 @@
 {
-    "name": "FlightTired",
-    "description": "Used as a cooldown to Trickster's Flight",
+    "name": "Lady Dominatrix",
+    "description": "Inflicts automatic Charm for 2 Turns at start of battle.",
 
     "LevelReq": "0",
     "PerkReq": [ ""],
@@ -8,7 +8,7 @@
     "StatReqAmount": [ "0"],
 
     "PerkType": [   "TurnDuration", "StatusIcon"   ],
-    "EffectPower": [ "3",  "../Mods/MariTheButterfly/Images/LastWaltz.png" ],
+    "EffectPower": [ "3"],
 
     "PlayerCanPurchase": "No"
 }

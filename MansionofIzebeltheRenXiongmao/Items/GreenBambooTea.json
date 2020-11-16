@@ -1,6 +1,6 @@
 {
-    "name": "Mari's Tulip Jam Jar",
-    "itemType": "NotCombatConsumable",
+    "name": "GreenBambooTea",
+    "itemType": "Key",
     "cost": "0",
     "requires": [ ""],
     "requiresEvent": [
@@ -11,7 +11,7 @@
                           "Choice": ""
                         }
                       ],
-    "descrip": "Delicious rejuvenation tulip jam footmade by Mari and sealed in a specially enchanted jar. Restores 1 Spirit, but the essence of Mari's feet still lingers, giving you arousal based on your Foot Fetish.",
+    "descrip": "A green tea made from bamboo leaves, its said to cure any Panda's sickness and relaxes the spirit. Carrying this will allow new travelers to come to the bar during the daytime.",
     "perks": [ ""],
     "skills": [],
 
@@ -54,7 +54,7 @@
     },
 
 
-    "useOutcome": "|f|JumpToEventThenScene|/|Flowery Clearing|/|UseJamJar",
+    "useOutcome": "",
     "useMiss": "",
 
     "onEquip": "",
