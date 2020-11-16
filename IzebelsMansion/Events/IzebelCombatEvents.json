@@ -12,22 +12,24 @@
                   }
                 ],
     "EventText": [
-                            {
-                              "NameOfScene": "Pierced Breast Tease",
-                              "theScene": [ "",
-                                "Izebel reveals her pierced tiddies, giving her plump pale chest an enticing shake.{DamageToPlayer}",
-                                "FocusedSpeaks",
-                                "Are you sure you don't want these bad boys, and my tongue to help?",
-                                "Your cock is rock solid from the sight of her bountiful soft breasts, and it's hard to even say no to her enticing suggestion of her valley...",
-                                "IfInExploration", "noKotoneCheck",
-                                "IfHasPerk", "Kotone's Hypno Lover", "noKotoneCheck",
-                                "GetAnEventsProgressThenIfEqualsOrGreater", "KitsunesMentalHelp", "5", "HypnoWarm",
-                                "GetAnEventsProgressThenIfEqualsOrGreater", "KitsunesMentalHelp", "1", "HypnoWarmCheck",
-                                "StatCheck",
-                                "Temptation",
-                                "20",
-                                "PassResistCheck",
-                                "Fail",
-                                "I knew you couldn't resist"
-                              ]
-                            },
+                    {
+                            "NameOfScene": "",
+                            "theScene": [ "HitPlayerWith", "Pierced Breast Tease",
+                                          "Izebel reveals her pierced tiddies, giving her plump pale chest an enticing shake.{DamageToPlayer}",
+                                          "FocusedSpeaks",
+                                          "Are you sure you don't want these bad boys, and my tongue to help?",
+                                          "Your cock is rock solid from the sight of her bountiful soft breasts, and it's hard to even say no to her enticing suggestion of her valley...",
+                                          "IfInExploration", "noKotoneCheck",
+                                          "IfHasPerk", "Kotone's Hypno Lover", "noKotoneCheck",
+                                          "GetAnEventsProgressThenIfEqualsOrGreater", "KitsunesMentalHelp", "5", "HypnoWarm",
+                                          "GetAnEventsProgressThenIfEqualsOrGreater", "KitsunesMentalHelp", "1", "HypnoWarmCheck",
+                                          "StatCheck",
+                                              "Temptation",
+                                              "20",
+                                              "PassResistCheck",
+                                              "Fail",
+                                              "I knew you couldn't resist..."
+                                            ]
+                                          }
+]
+}
