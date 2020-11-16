@@ -5,7 +5,7 @@
     "requires": [ ""],
     "descrip": "A bamboo leaf that when used by an apothecary, can either be used for tea or medicine, works great to cure certain status ailments",
     "perks": [ ""],
-    "skills": [ ],
+    "skills": [""],
 
     "hp": "0",
     "ep": "0",
@@ -19,7 +19,7 @@
     "Willpower": "0",
     "Luck": "0",
 
-    "statusEffect": "Paralysis", "Charm", "Aphrodisiac", "Trance",
+    "statusEffect": "All",
     "statusChance": "0",
     "statusPotency": "0",
 
