@@ -1,4 +1,5 @@
-"name": "Dominatrix Charm",
+{
+    "name": "Dominatrix Charm",
     "cost": "5",
     "costType": "ep",
     "requiredLevel": "0",
