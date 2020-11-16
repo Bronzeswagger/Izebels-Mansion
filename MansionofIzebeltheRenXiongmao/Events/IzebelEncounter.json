@@ -1,0 +1,43 @@
+ {
+    "name": "Old Mansion on Mystic Forest Hill",
+    "CardType": "Event",
+    "CardLimit": "1",
+    "Description": "You see an unbeaten path that leads to a hidden road...",
+    "requires": [ ""],
+    "requiresEvent": [
+                        {
+                          "NameOfEvent": "",
+                          "Progress": "",
+                          "ChoiceNumber": "",
+                          "Choice": ""
+                        }
+                      ],
+    "Speakers": [
+                  {
+                    "name": "Pandawoman",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  },
+                  {
+                    "name": "Izebel",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+
+                ],
+    "EventText": [
+                    {
+                        "NameOfScene": "EventStart",
+                        "theScene": [ 
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "EventIsBroke",
+                        "theScene": [  "Event machine broke, tell Bronzeswagger about this!"
+
+                                  ]
+                    }
+
+                ]
+}

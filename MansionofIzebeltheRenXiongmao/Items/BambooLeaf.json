@@ -1,17 +1,9 @@
 {
     "name": "BambooLeaf",
-    "itemType": "Key",
-    "cost": "0",
+    "itemType": "NotCombatConsumable",
+    "cost": "10",
     "requires": [ ""],
-    "requiresEvent": [
-                        {
-                          "NameOfEvent": "",
-                          "Progress": "-99",
-                          "ChoiceNumber": "-1",
-                          "Choice": ""
-                        }
-                      ],
-    "descrip": "A bamboo leaf that when used by an apothecary, can either used for tea or medicine, works great as an ingredient for a sick panda",
+    "descrip": "A bamboo leaf that when used by an apothecary, can either be used for tea or medicine, works great to cure certain status ailments",
     "perks": [ ""],
     "skills": [ ],
 
@@ -27,7 +19,7 @@
     "Willpower": "0",
     "Luck": "0",
 
-    "statusEffect": "",
+    "statusEffect": "Paralysis", "Charm", "Aphrodisiac", "Trance",
     "statusChance": "0",
     "statusPotency": "0",
 
