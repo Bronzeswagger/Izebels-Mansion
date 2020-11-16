@@ -1,0 +1,98 @@
+{
+    "name": "Butterfly Girl",
+    "IDname": "Butterfly Girl",
+    "species": "Insect",
+    "gender": "female",
+    "description": "A small woman with waist-length purple hair tied as twintails using blue flowers underneath a large bonnet, shadowing a petite face. Her deep blue eyes and leotard dress match the color of the large blue wings with black edges behind her. Her B cup breasts form slight hills underneath her small blue mantle. She wears black gloves ending in blue frills along the way, along with black stirrup stockings that expose her fair skin behind her knees and at her feet. The ends of her hands and feet are accentuated by her blue-painted nails.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [ ""],
+    "skillList": [""],
+    "perks": [ "Pacing"],
+    "stats": { "lvl": "15",
+              "Exp": "200",
+              "max_hp": "245",
+              "max_ep": "10",
+              "max_sp": "2",
+              "Power": "4",
+              "Technique": "15",
+              "Intelligence": "15",
+              "Willpower": "10",
+              "Allure": "15",
+              "Luck": "10"
+    },
+    "Fetishes": [ ""],
+    "BodySensitivity": { "Sex": "150",
+              "Ass": "150",
+              "Breasts": "150",
+              "Mouth": "150",
+              "Seduction": "100",
+              "Magic": "200",
+              "Pain": "5",
+              "Holy": "100",
+              "Unholy": "100"
+    },
+    "resistancesStatusEffects": {
+              "Stun": "0",
+              "Charm": "0",
+              "Aphrodisiac": "9999",
+              "Restraints": "125",
+              "Sleep": "0",
+              "Trance": "0",
+              "Paralysis": "0",
+              "Debuff": "-25"
+    },
+    "moneyDropped": "50",
+    "ItemDropList": [
+                      {
+                        "name": "Calming Potion",
+                        "dropChance": "75"
+                      }
+                    ],
+                    "lossScenes": [
+                                    {
+                                        "NameOfScene": "",
+                                        "move": "",
+                                        "stance": "",
+                                        "includes": [ ""],
+                                        "theScene": [ ""
+                                                  ],
+                                        "picture": ""
+                                    }
+                                  ],
+    "combatDialogue": [
+
+                      ],
+                      "victoryScenes": [
+                                {
+                                    "NameOfScene": "",
+                                    "move": "",
+                                    "stance": "",
+                                    "includes": [ ""],
+                                    "theScene": [ ""
+                                              ],
+                                    "picture": ""
+                                }
+                            ],
+                    "pictures": [
+                                  {
+                                      "Name": "",
+                                      "StartOn": "1",
+                                      "AlwaysOn": "1",
+                                      "IsScene": "0",
+                                      "TheBody": "1",
+                                      "Overlay": "No",
+                                      "setXalign": "0.0",
+                                      "setYalign": "0.0",
+                                      "Images": [
+                                      {
+                                          "Name": "",
+                                          "File": "",
+                                          "setXalign": "0.0",
+                                          "setYalign": "0.0"
+                                      }
+                                    ]
+                                  }
+                                ]
+}

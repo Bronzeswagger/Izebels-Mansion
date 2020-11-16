@@ -1,0 +1,14 @@
+{
+    "name": "Last Waltz",
+    "description": "Mari's last desperate attempt to win! Damage and Damage Reduction is massively increased!",
+
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "StatusIcon",                                       "DamageBoost", "DamageReduction" ],
+    "EffectPower": [ "../Mods/MariTheButterfly/Images/LastWaltz.png", "1500",    "65"   ],
+
+    "PlayerCanPurchase": "No"
+}

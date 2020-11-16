@@ -1,0 +1,26 @@
+{
+    "name": "Mystic Forest",
+    "exploreTitle": "Addition",
+    "Monsters": [ ""],
+    "MonsterGroups": [
+
+                  {
+                      "Monsters": [ ""]
+                  }
+
+                ],
+    "Events": [ "Flowery Clearing"],
+    "Quests": [ ""],
+    "Adventures": [ "Visit Mari"],
+    "Treasure": [
+                {
+                    "Common": [ ""]
+                },
+                {
+                    "Uncommon": [ ""]
+                },
+                {
+                    "Rare": [ ""]
+                }
+              ]
+}

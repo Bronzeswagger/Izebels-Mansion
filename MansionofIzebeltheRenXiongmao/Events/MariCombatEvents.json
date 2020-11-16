@@ -1,0 +1,735 @@
+{
+    "name": "MariCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "requiresEvent": [
+                        {
+                          "NameOfEvent": "",
+                          "Progress": "",
+                          "ChoiceNumber": "",
+                          "Choice": ""
+                        }
+                      ],
+    "Speakers": [
+                  {
+                    "name": "Mari",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+
+                ],
+    "EventText": [
+                    {
+                        "NameOfScene": "Intro",
+                        "theScene": [
+                                       "Mari smiles as she floats into position, her soles pointed toward you!",
+                                       "SetChoice", "3", "",
+                                       "SetChoice", "4", "",
+                                       "SetChoice", "5", "",
+                                       "GetEventAndSetChoice", "Flowery Clearing", "4", "RanAway"
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "LowHPChoice",
+                        "theScene": [  "IfChoice", "4", "LowHP", "FinalHP",
+                                       "ChangeImageLayer", "Face", "HeavyBlush",
+                                       "ChangeImageLayer", "Expression", "Orgasm",
+                                       "FocusedSpeaksSkill",
+                                       "'Nnn... Ngghhh~! I'm going to cum! I'm cumming~♥!' Mari cries out in ecstasy as she orgasms and loses 1 spirit!",
+                                       "SetChoice", "4", "LowHP",
+                                       "JumpToScene", "LowHealthTransformCheck"
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "FinalHP",
+                        "theScene": [  "ChangeImageLayer", "Expression", "Orgasm",
+                                      "ChangeImageLayer", "Face", "HeavyBlush",
+                                       "FocusedSpeaksSkill",
+                                       "'Ngghhh~~♥! A-again! I'm cumming again~♥, {ThePlayerName}~♥!' Mari cries out in ecstasy as she orgasms and loses 1 spirit!"
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "LowHealthTransformCheck",
+                        "theScene": [
+                                       "GetEventAndIfChoiceIs", "Flowery Clearing", "1", "WonFight", "FinalSpiritCheck"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "FinalSpiritCheck",
+                        "theScene": [
+                                       "IfChoice", "4", "LowHP", "TransformedCheck"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "TransformedCheck",
+                        "theScene": [
+                                       "IfChoice", "5", "", "LowHealthTransform"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "LowHealthTransform",
+                        "theScene": [
+                                       "SetChoice", "5", "Transformed",
+                                       "GetEventAndSetChoice", "Flowery Clearing", "6", "Transformed",
+                                       "StopBGM",
+                                       "ChangeImageLayer", "Face", "Blush",
+                                       "ChangeImageLayer", "Expression", "Panic",
+                                       "FocusedSpeaks",
+                                       "Ha... Ha... At this rate... I'm really going to lose again...♥",
+                                       "ChangeImageLayer", "Expression", "Suspicion",
+                                       "FocusedSpeaks",
+                                       "Nnnn, how embarrassing it would be... To lose again... In my own garden!",
+                                       "ChangeImageLayer", "Expression", "ThinkingClosed",
+                                       "ChangeImageLayer", "Body", "Base",
+                                       "ChangeImageLayer", "Legs", "Base",
+                                       "ChangeImageLayer", "Arm", "Base",
+                                       "ChangeImageLayer", "AuraBody", "Base",
+                                       "ChangeImageLayer", "AuraWings", "Base",
+                                       "Mari's lust-induced expression suddenly sharpens! She closes her eyes and begins casting a spell, a glowing blue aura emanating from her entire body...",
+                                       "ClearStanceFromMonsterAndPlayer", "All",
+                                       "RemoveStatusEffectFromMonster", "All",
+                                       "ChangeBGM", "../Mods/MariTheButterfly/Music/Encounter.mp3",
+                                       "PlayVisualEffect", "BlindingFlash", "../Mods/MariTheButterfly/Images/blue.png",
+                                       "PlayMotionEffect", "LongExplosion",
+                                       "ChangeImageLayer", "AuraBody", "",
+                                       "ChangeImageLayer", "AuraWings", "",
+                                       "ChangeImageLayer", "Face", "",
+                                       "PlaySoundEffect", "sfx/Magic/Hypnosis effect 24.wav",
+                                       "GivePerkToMonster", "Last Waltz",
+                                       "ChangeMonsterArousal", "-250",
+                                       "ChangeMonsterErosDrop", "2000",
+                                       "ChangeMonsterExpDrop", "200",
+                                       "Before you can react, the butterfly girl's aura flares up and erupts from her body! At first glance, she looks the same as before, but you can feel her presence overflowing with mana.",
+                                       "ChangeImageLayer", "Expression", "Smug",
+                                       "FocusedSpeaks",
+                                       "Phew... How do you like it~? This is my very own Magic Touch♥! I won't... Ha... Haa...♥ Give up!"
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Butterfly Smother Counter Call",
+                        "theScene": [ "SetChoice", "1", "CounterCheckEndTurn"
+                                  ]
+                    },
+                        {
+                          "NameOfScene": "EndOfRoundCounterCheck",
+                          "theScene": [
+                                        "IfMonsterHasStatusEffect", "Sleep", "Remove Counter Checks",
+                                        "IfMonsterHasStatusEffect", "Stun", "Remove Counter Checks",
+                                        "IfMonsterHasStatusEffect", "Restrain", "Remove Counter Checks",
+                                        "IfChoice", "2", "counter set", "CounterEnd",
+                                        "IfChoice", "2", "Countered!", "ResumeFight",
+                                        "IfChoice", "1", "CounterCheckEndTurn", "CounterSetCheck"
+                                    ]
+                        },
+                                {
+                                  "NameOfScene": "Remove Counter Checks",
+                                  "theScene": [   "SetChoice", "1", "",
+                                                  "SetChoice", "2", "",
+                                                  "ResumeMonsterAttack"
+                                            ]
+                                },
+                        {
+                          "NameOfScene": "CounterSetCheck",
+                          "theScene": [   "SetChoice", "1", "",
+                                          "IfMonsterHasStance", "Any", "DoAttack",
+                                          "SetChoice", "2", "counter set",
+                                          "SkipMonsterAttack",
+                                          "ChangeImageLayer", "Face", "BlushShadow",
+                                          "ChangeImageLayer", "Expression", "Seductive",
+                                          "ChangeImageLayer", "Legs", "SolesUp",
+                                          "Mari hugs her legs and braces herself with a devious smile..."
+                                    ]
+                        },
+                            {
+                              "NameOfScene": "DoAttack",
+                              "theScene": [  "CallMonsterAttack"
+                                        ]
+                            },
+                        {
+                          "NameOfScene": "CounterEnd",
+                          "theScene": [   "SetChoice", "2", "",
+                                          "ResumeMonsterAttack",
+                                          "ChangeImageLayer", "Expression", "Pout",
+                                          "ChangeImageLayer", "Legs", "Base",
+                                          "ChangeImageLayer", "Face", "",
+                                          "With a slight pout at your lack of reaction, Mari lets go of her legs and resumes her usual floaty stance."
+                                    ]
+                        },
+                        {
+                          "NameOfScene": "ResumeFight",
+                          "theScene": [   "SetChoice", "2", "",
+                                          "ResumeMonsterAttack"
+                                         ]
+                        },
+
+                    {
+                      "NameOfScene": "CallCounterAttack",
+                      "theScene": [  "IfMonsterHasStatusEffect", "Sleep", "Remove Counter Checks",
+                                    "IfMonsterHasStatusEffect", "Stun", "Remove Counter Checks",
+                                    "IfMonsterHasStatusEffect", "Restrain", "Remove Counter Checks",
+                                    "IfChoice", "2", "counter set", "ButterflySmotherCounterAttack!"
+                                ]
+                    },
+                    {
+                      "NameOfScene": "ButterflySmotherCounterAttack!",
+                      "theScene": [   "SetChoice", "2", "Countered!",
+                                      "SkipPlayerAttack",
+                                      "ChangeImageLayer", "Expression", "SmugSmile",
+                                      "ChangeImageLayer", "Face", "BlushShadow",
+                                      "SetPostName", "- Butterfly Smother",
+                                      "As soon as you move in to attack Mari, she effortly spins around your attack, curled up like a ball.",
+                                      "ChangeImageLayer", "Expression", "FangSmile",
+                                      "Without giving you time to react, she unfurls herself at you feet-first!",
+                                        "HitPlayerWith", "ButterflySmotherAttack",
+                                        "ChangeImageLayer", "Expression", "Seductive",
+                                      "She hits your head with deadeye accuracy, covering your face with her supple soles, but doesn't try to hurt you at all. In fact, the smothering of her velvety, sweet-smelling feet is intoxicatingly pleasant...",
+                                      "Reflexively, you inhale, your nose and mouth filled with her dangerously soothing perfume...",
+                                      "ApplyStatusEffect", "Charm",
+                                      "ChangeImageLayer", "Expression", "Smug",
+                                      "You hear Mari giggle as she changes her position with a swift beat of her wings, standing on top of you with both soles still planted on your face. Her flowery scent keeps seeping into your head...",
+                                      "ChangeImageLayer", "Expression", "Happy",
+                                      "ChangeImageLayer", "Face", "Blush",
+                                      "Suddenly, she begins to march in place, lightly stomping on your face with her heavenly soft soles. With her small size, it feels more like you're being smothered over and over again, her dexterous toes delicately brushing your nose, cheeks, lips, and tongue, letting you taste her soft skin.",
+                                      "She gives your face one last grind of her feet and, before you can recover, jumps back into position.",
+                                      "ChangeImageLayer", "Legs", "Base",
+                                      "ChangeImageLayer", "Expression", "Base",
+                                      "You quickly recollect yourself, shaking your head and focusing back on the fight, but the memory of her soles pressed against your face stays with you...",
+                                      "ChangeFetish", "Feet", "10",
+                                      "SetPostName",
+                                      ""
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Butterfly Trap",
+                        "theScene": [  "ChangeImageLayer", "Expression", "SmugFang",
+                                       "ChangeImageLayer", "Face", "Blush",
+                                       "SetPostName", " - Butterfly Trap",
+                                       "Before your charmed state, Mari playfully dangles her legs, teasingly caressing every inch of her thighs and calves.",
+                                       "ChangeImageLayer", "Legs", "Cross",
+                                       "Unable to look away, you gulp down with difficulty, your eyes utterly transfixed to the way her soft flesh squishes whenever she bends her knees...",
+                                       "ChangeImageLayer", "Legs", "Raised",
+                                       "ChangeImageLayer", "Expression", "Seductive",
+                                       "FocusedSpeaksSkill",
+                                       "'Mmmm~? Where are you looking, adventurer? Could it be my feet? My thighs? Or could it be...'",
+                                       "ChangeImageLayer", "Expression", "SolesUp",
+                                       "With deliberate slowness, she seductively trails her finger from her hips to the back of her thigh, then down to her enticing kneepit, making your cock throb at the sight of the sweat-lubricated space.",
+                                       "FocusedSpeaksSkill",
+                                       "'This little cave, meant just for an eager adventurer's stamen...?♥'",
+                                       "ChangeImageLayer", "Expression", "KissSeductive",
+                                       "ChangeImageLayer", "Face", "HeavyBlush",
+                                       "Her fingers sink into her pliable flesh as she sighs alluringly and reveals a perfect cock-sized opening between her calf and thigh...",
+                                       "FocusedSpeaksSkill",
+                                       "'Why not forget about resisting and just enjoy it~? I'm ready for you.♥'",
+                                       "SetPostName", "",
+                                       "Menu",
+                                       "Plunge it in...",
+                                       "Resist her legs!",
+                                       "EndLoop"
+
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Plunge it in...",
+                        "theScene": [  "ChangeImageLayer", "Expression", "Seductive",
+                                        "Unable to resist the temptation, you mindlessly stagger forward and plunge your cock into her enticing kneepit.",
+                                        "ChangeImageLayer", "Legs", "Base",
+                                        "HitPlayerWith", "Pollinating Kneejob",
+                                        "ApplyStance", "Kneejob", "SetAttack", "Leg Grind",
+                                        "ApplyStatusEffect", "Kneejob Hold",
+                                       "You moan as the slick, sweaty entrance lets your shaft unresistingly slip into the depths of her supple skin, the heavenly touch embracing you from all sides...",
+                                        "HitPlayerWith", "Pollinating Kneejob",
+                                       "The warmth of her leg quickly overwhelms all of your senses as you mindlessly thrust into her kneepit...",
+                                       "ChangeImageLayer", "Expression", "Kissy",
+                                       "HitPlayerWith", "Kiss",
+                                       "When she leans forward, you don't even resist, letting her lay a gentle, sweet peck on your lips...",
+                                       "RemoveStatusEffect", "Charm",
+                                       "It's not until you actually feel her mouth against your own that you realize the situation you're in!"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Resist her legs!",
+                        "theScene": [  "Despite the charm you're under, you try your best to resist completely losing yourself in her legs...",
+                                       "StatCheck",
+                                        "ChangeStatCheckDifficulty",
+                                          "IfFetishLevelEqualOrGreater", "Legs", "50", "2",
+                                          "ChangeStatCheckDifficulty",
+                                            "IfFetishLevelEqualOrGreater", "Legs", "75", "4",
+                                          "ChangeStatCheckDifficulty",
+                                            "IfFetishLevelEqualOrGreater", "Legs", "100", "5",
+                                        "Willpower", "8",
+                                        "Resisted Legs!",
+                                        "Fail",
+                                        "Plunge it in..."
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Resisted Legs!",
+                        "theScene": [  "ChangeImageLayer", "Expression", "Pout",
+                                       "ChangeImageLayer", "Legs", "Base",
+                                       "You shake your head and recompose yourself, staving off the temptation. Peeved at your resistance, Mari pouts and quickly changes position.",
+                                       "ChangeImageLayer", "Expression", "Base",
+                                       "ChangeImageLayer", "Face", "Blush",
+                                       "FocusedSpeaks",
+                                       "Nnnnn, no good, huh~? How about this~?♥",
+                                       "JumpToScene",
+                                       "Foot Flower Trap"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Foot Flower Trap Check",
+                        "theScene": [  "IfPlayerHasStatusEffect", "Charm", "Butterfly Trap",
+                                       "JumpToScene",
+                                       "Foot Flower Trap"
+                                  ]
+                    },
+
+                    {
+                        "NameOfScene": "Foot Flower Trap",
+                        "theScene": [  "ChangeImageLayer", "Expression", "Seductive",
+                                       "ChangeImageLayer", "Arm", "",
+                                       "ChangeImageLayer", "Legs", "",
+                                       "ChangeImageLayer", "Body", "FeetPussy",
+                                       "ChangeImageLayer", "Face", "Blush",
+                                       "SetPostName", " - Foot Flower Trap",
+                                       "Mari squats in midair with her enticing, shapely feet held together, knees apart in front of you, presenting their smooth, dainty beauty in all their alluring glory.",
+                                       "ChangeImageLayer", "Expression", "FangSmile",
+                                       "FocusedSpeaksSkill",
+                                       "SwapLineIf", "Random",
+                                          "'Adventurer~♥, look over here~♪.'",
+                                          "'I have an idea~♥.'",
+                                          "'Adventurer~♥, are you interested?'",
+                                        "EndLoop",
+                                        "SetPostName", " - Foot Flower Trap",
+                                       "Feet still together, she slowly spreads her toes to reveal a lasciviously sweat-lubicrated opening between her warm soles, with her crotch barely visible at the end of the tunnel.",
+                                       "ChangeImageLayer", "Expression", "SmugFang",
+                                       "FocusedSpeaksSkill",
+                                       "SwapLineIf", "Random",
+                                          "'It's only natural that we fuck in a sex battle, right~? Well, here you go~♥: it's my feet pussy~♥. Let's have 'sex', adventurer...♥'",
+                                          "'Fufu, it looks cozy, doesn't it~? I bet your stamen would slide r~ight in, adventurer~♥.'",
+                                        "EndLoop",
+                                       "Your cock throbs in response to the invitation. You're not even sure if it's her feet or her honeypot you're being tempted by, both luring you in with the promise of delightful squeezing softness...",
+                                       "SetPostName", "",
+                                       "Menu",
+                                       "Must fuck!",
+                                       "Resist!",
+                                       "EndLoop"
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Must fuck!",
+                        "theScene": [  "ApplyStance", "Feet Pussy", "SetAttack", "Foot Stroke",
+                                       "ApplyStatusEffect", "Feet Pussy Hold",
+                                       "ChangeImageLayer", "Expression", "Happy",
+                                       "You dazedly rush forward and slide your shaft inside her tempting feet pussy with a slight moan. Mari smiles triumphantly as she squeezes her feet, trapping your cock within their delightfully receptive confines.",
+                                       "ChangeImageLayer", "Expression", "Base",
+                                       "ChangeImageLayer", "Face", "HeavyBlush",
+                                       "Gasping with pleasure, you start mindlessly thrusting into her perfectly supple soles, the stimulation proving on a par with the softest pussy."
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Resist!",
+                        "theScene": [  "IfHasFetish", "Feet", "ResistFetish!",
+                                       "Despite the temptation, you manage to will yourself away from the makeshift pussy.",
+                                       "ChangeImageLayer", "Expression", "Pout",
+                                       "ChangeImageLayer", "Face", "",
+                                       "ChangeImageLayer", "Body", "Base",
+                                       "ChangeImageLayer", "Arm", "Base",
+                                       "ChangeImageLayer", "Legs", "Base",
+                                       "Pouting disapprovingly at your refusal, Mari gets ready for her next attack, her eyes sparkling with challenge."
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Resisted Feet!",
+                        "theScene": [
+                                       "You're momentarily tempted, but manage to will yourself away from the  makeshift pussy.",
+                                       "ChangeImageLayer", "Expression", "Pout",
+                                       "ChangeImageLayer", "Face", "",
+                                       "ChangeImageLayer", "Body", "Base",
+                                       "ChangeImageLayer", "Arm", "Base",
+                                       "ChangeImageLayer", "Legs", "Base",
+                                       "Pouting disapprovingly at your refusal, Mari gets ready for her next attack, her eyes sparkling with challenge."
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "ResistFetish!",
+                        "theScene": [  "The delightful foot trap seems to draw you in, the promise of pleasure from her soles tempting you as Mari tantalizingly wiggles her toes...",
+                                      "StatCheck",
+                                          "ChangeStatCheckDifficulty",
+                                          "IfFetishLevelEqualOrGreater", "Feet", "50", "2",
+                                          "ChangeStatCheckDifficulty",
+                                          "IfFetishLevelEqualOrGreater", "Feet", "75", "4",
+                                          "ChangeStatCheckDifficulty",
+                                          "IfFetishLevelEqualOrGreater", "Feet", "100", "5",
+                                       "Willpower",
+                                       "12",
+                                       "Resisted Feet!",
+                                       "Fail",
+                                       "Must fuck!"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "FeetPussyHoldEscapeFail",
+                        "theScene": [
+                                      "ChangeImageLayer", "Face", "HeavyBlush",
+                                      "SwapLineIf", "Random",
+                                        "But her soles suddenly squeeze your cock before you can pull it out, keeping your manhood trapped!",
+                                        "But as your glans rubs against her soft and supple skin, any idea of refusing this unique pleasure floats away from your mind and you thoughtlessly start groping her legs instead...",
+                                        "But she suddenly picks up the pace, causing you to melt in her grip, stopping you dead in your tracks!",
+                                      "EndLoop",
+                                      "ChangeImageLayer", "Expression", "SmugFang",
+                                      "FocusedSpeaks",
+                                      "SwapLineIf", "Random",
+                                        "There's no escape, adventurer...♥",
+                                        "Won't you stay a moment longer?♥",
+                                        "Why would you want to get away? Fufu~♥",
+                                      "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "EscapedFeetPussyHold",
+                        "theScene": [ "And grabbing a hold of her ankles, you manage to free yourself from her feet pussy!",
+                                      "ChangeImageLayer", "Face", "Blush",
+                                      "ClearStanceFromMonsterAndPlayer", "Feet Pussy",
+                                      "ChangeImageLayer", "Expression", "Smug",
+                                      "ChangeImageLayer", "Body", "Base",
+                                      "ChangeImageLayer", "Arm", "Base",
+                                      "ChangeImageLayer", "Legs", "Base",
+                                      "FocusedSpeaks",
+                                      "SwapLineIf", "Random",
+                                      "Awww~",
+                                      "Oh~? You didn't want to stay any more?",
+                                      "I'll have you back soon, adventurer~♥",
+                                      "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "KneejobHoldEscapeFail",
+                        "theScene": [  "ChangeImageLayer", "Expression", "Seductive",
+
+                                       "ChangeImageLayer", "Face", "HeavyBlush",
+                                       "SwapLineIf", "Random",
+                                        "But as your glans rubs against her soft and supple skin, any idea of refusing this unique pleasure floats away from your mind and you thoughtlessly start groping her legs instead...",
+                                        "But she squeezes her legs together before you can escape, causing you to moan in ecstasy and forgetting the idea.",
+                                        "But she suddenly twists her body, forcing you off-balance and preventing you from pulling out of her knee trap.",
+                                       "EndLoop",
+                                       "ChangeImageLayer", "Expression", "Smug",
+                                       "FocusedSpeaks",
+                                       "SwapLineIf", "Random",
+                                        "Are you sure you want to leave? Fufu~♥",
+                                        "It's fine if you stay like this a bit longer...♥",
+                                       "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "EscapedKneejobHold",
+                        "theScene": [
+                                      "ClearStanceFromMonsterAndPlayer", "Kneejob",
+                                      "ChangeImageLayer", "Face", "Blush",
+                                      "ChangeImageLayer", "Expression", "SmugFang",
+                                      "ChangeImageLayer", "Legs", "Base",
+                                      "FocusedSpeaks",
+                                      "SwapLineIf", "Random",
+                                      "Aw~♥ That's a shame~.",
+                                      "Oh~? You didn't want to stay any more?",
+                                      "I'll have you back soon, adventurer~♥",
+                                      "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "FootjobEscapeFail",
+                        "theScene": [  "ChangeImageLayer", "Expression", "Seductive",
+
+                                       "ChangeImageLayer", "Face", "HeavyBlush",
+                                       "SwapLineIf", "Random",
+                                        "But she suddenly changes her pace, giving slow, deep strokes with her soft soles, draining away your resistance...",
+                                        "But she leans forward and shifts her weight, forcing her soft foot on your shaft and watching as you shiver in pleasure with an amused expression.",
+                                        "But she playfully strokes you all over with her supple toes, kneading the resistance out of you!",
+                                       "EndLoop",
+                                       "ChangeImageLayer", "Expression", "Smug",
+                                       "FocusedSpeaks",
+                                       "SwapLineIf", "Random",
+                                        "Aren't you tired~? I think you should lay down a bit longer~, Fufu~♥",
+                                        "Just enjoy it, adventurer~♥.",
+                                       "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "EscapedFootjob",
+                        "theScene": [
+                                      "ClearStances",
+                                      "And manage to free yourself from her flower bindings! Quickly rolling away from her domineering foot, you get right back up.",
+                                      "ChangeImageLayer", "Face", "Blush",
+                                      "ChangeImageLayer", "Expression", "SmugFang",
+                                      "FocusedSpeaks",
+                                      "SwapLineIf", "Random",
+                                      "Aw~♥ That's a shame~.",
+                                      "Oh~? You didn't want any more?",
+                                      "Nnnn~? You could've stayed there longer~♥.",
+                                      "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "BehindFootjobEscapeFail",
+                        "theScene": [  "ChangeImageLayer", "Expression", "Seductive",
+
+                                       "ChangeImageLayer", "Face", "HeavyBlush",
+                                       "SwapLineIf", "Random",
+                                        "But your strength disappears in an instant as her tongue invades your ears from behind, completely loosening your body against her grip...",
+                                        "But her blue-painted toes deftly dance around your glans, taking away any momentum you had.",
+                                        "But you shiver with pleasure as she blows a hot breath directly into your ear, the strength you had in your arms melted away.",
+                                       "EndLoop",
+                                       "ChangeImageLayer", "Expression", "Smug",
+                                       "FocusedSpeaks",
+                                       "SwapLineIf", "Random",
+                                        "There's no need to escape~♥...",
+                                        "Just... Mmmwah... Relax~♥.",
+                                        "Fuuuuuuu~♥, are you sure you want to leave~?",
+                                       "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "EscapedBehindFootjob",
+                        "theScene": [
+                                      "ClearStances",
+                                      "And manage to free yourself from her grip! She flies and joyfully spins away with a giggle before you can grab her.",
+                                      "ChangeImageLayer", "Face", "Blush",
+                                      "ChangeImageLayer", "Expression", "SmugFang",
+                                      "FocusedSpeaks",
+                                      "SwapLineIf", "Random",
+                                      "Ehehehe~♥, Your ears were red, adventurer~♥.",
+                                      "Nnnnnn~, how should I taste you next~♥...",
+                                      "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Trickster's Flight Check",
+                        "theScene": [   "SetPostName", "- Trickster's Flight",
+                                       "ChangeImageLayer", "Expression", "Happy",
+                                       "ChangeImageLayer", "Face", "",
+                                        "FocusedSpeaksSkill",
+                                        "SwapLineIf", "Random",
+                                          "'Wheee~♪!'",
+                                          "'Here I go~♪!'",
+                                          "'Eyes open, adventurer~♪!'",
+                                        "EndLoop",
+                                        "JumpToRandomScene",
+                                        "Trickster's Flight",
+                                        "Trickster's Fake Flight",
+                                        "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Trickster's Flight",
+                        "theScene": [  "ChangeImageLayer", "Expression", "FangSmile",
+                                       "SetPostName", "- Trickster's Flight",
+                                       "Mari giggles as she suddenly picks up speed, randomly flying all around before she swiftly swoops straight into you!",
+                                       "SetChoice", "3", "",
+                                       "SetPostName", "",
+                                       "Menu",
+                                       "Brace for impact. (Power)",
+                                       "Roll away. (Technique)",
+                                       "Stand still!",
+                                       "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "MariFakeSawThrough",
+                        "theScene": [
+                                       "SetChoice", "3", "FakeFailed",
+                                       "You patiently stand still and watch as Mari flies into you... going right through, disappearing into a blue light!",
+                                       "ChangeImageLayer", "Expression", "Surprise",
+                                       "ChangeImageLayer", "AuraBody", "",
+                                       "ChangeImageLayer", "AuraWings", "",
+                                       "You turn around just in time to see the butterfly girl swooping in from behind! Her eyes widen as you meet her gaze, but she doesn't show any sign of stopping her flight.",
+                                       "Menu",
+                                       "Brace for impact. (Power)",
+                                       "Roll away. (Technique)",
+                                       "Stand still!",
+                                       "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Trickster's Fake Flight",
+                        "theScene": [
+                                       "SetPostName", "- Trickster's Flight",
+                                       "ChangeImageLayer", "AuraBody", "Base",
+                                       "ChangeImageLayer", "AuraWings", "Base",
+                                       "Mari giggles as she suddenly picks up speed, randomly flying all around before she swiftly swoops straight into you! She's surrounded by a shimmering blue aura...",
+                                       "SetChoice", "3", "MariFake",
+                                       "SetPostName", "",
+                                       "Menu",
+                                       "Brace for impact. (Power)",
+                                       "Roll away. (Technique)",
+                                       "Stand still!",
+                                       "EndLoop"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Brace for impact. (Power)",
+                        "theScene": [  "You plant your legs into the earth and clench your muscles, ready to stand your ground...",
+                                       "IfChoice", "3", "MariFake", "MariFakedOut",
+                                       "StatCheck",
+                                         "ChangeStatCheckDifficulty",
+                                       "IfChoice", "3", "FakeFailed", "-5",
+                                       "Power",
+                                       "16",
+                                       "Brace Successful",
+                                       "Fail",
+                                       "Brace Failed"
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Brace Successful",
+                        "theScene": [  "IfChoice", "5", "Transformed", "TransformedBrace",
+                                       "ChangeImageLayer", "Expression", "Panic",
+                                       "...and with a loud 'Thud', Mari collides straight into your hardened muscles and bounces off of your legs!",
+                                       "ApplyStatusEffectToMonster",
+                                       "Spank",
+                                       "ChangeImageLayer", "Expression", "Dizzy",
+                                       "FocusedSpeaks",
+                                       "Wawawa~, g-give me one moment..."
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "TransformedBrace",
+                        "theScene": [
+                                       "ChangeImageLayer", "Expression", "Confident",
+                                       "ChangeImageLayer", "Legs", "SolesUp",
+                                       "...but in response to your brace, she gracefully spins about with the beat of her wings, smoothly cutting off her momentum and floating towards you feet-first!",
+                                       "ChangeImageLayer", "Face", "HeavyBlush",
+                                       "FocusedSpeaks",
+                                       "SwapLineIf", "Random",
+                                       "|f|ChangeImageLayer|/|Expression|/|LickingLips|n|Nnnn... What hard, {i}tasty{/i} muscles you have, adventurer~♥.",
+                                       "|f|ChangeImageLayer|/|Expression|/|Smug|n|Nnnnn~? There's no need to be so tense, adventurer~♥...",
+                                       "|f|ChangeImageLayer|/|Expression|/|SmugFang|n|What are you so nervous about~? Adventurer~♥?",
+                                       "EndLoop",
+                                       "ChangeImageLayer", "Expression", "Heat",
+                                       "HitPlayerWith", "Butterfly Smother",
+                                       "ApplyStatusEffect", "Lethargic Bubbles",
+                                       "Gently landing on your chest, she appreciatively caresses your pecs with both of her soles, cooing in delight as your braced form quickly falters under the alluringly soft feel of her skin.",
+                                       "ChangeImageLayer", "Face", "",
+                                       "ChangeImageLayer", "Legs", "Base",
+                                       "ChangeImageLayer", "Expression", "FangSmile",
+                                       "With her feet pressed flat against your chest, she skillfully uses you as a foothold and jumps away before you can counterattack, leaving you aroused and disoriented from the lingering touch of her erotic soles...  "
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Brace Failed",
+                        "theScene": [  "ChangeImageLayer", "Expression", "Smug",
+                                      "...but it's not quite enough, and despite her petiteness, she manages to tackle you into the ground, flat on your back! She uses the opportunity to grab your wrists and dominantly stand up over you.",
+                                      "JumpToScene",
+                                      "Mischievous Footjob"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Roll away. (Technique)",
+                        "theScene": [  "You try to dive and roll away before she can do anything...",
+                                       "SwapLineIf", "Choice", "5", "Transformed",
+                                        "Her blisteringly fast magic-enhanced speed makes it more difficult then ever! Despite that, you still continue on with the dive...",
+                                        "5", "",
+                                        "EndLoop",
+                                       "IfChoice", "3", "MariFake", "MariFakedOut",
+                                       "StatCheck",
+                                         "ChangeStatCheckDifficulty",
+                                       "IfChoice", "3", "FakeFailed", "-5",
+                                         "ChangeStatCheckDifficulty",
+                                       "IfChoice", "5", "Transformed", "15",
+                                       "Technique",
+                                       "10",
+                                       "Roll Successful",
+                                       "Fail",
+                                       "Roll Failed"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Roll Successful",
+                        "theScene": [
+                                        "...and successfully get away from her reckless charge!",
+                                        "ChangeImageLayer", "Expression", "Suspicion",
+                                       "Mari deftly beats her wings to turn around with a pout, irked at your successful dodge.",
+                                       "ChangeImageLayer", "Expression", "Base",
+                                       "She immediately goes back to her usual smile, however, though judging by her confident expression, she clearly has other tricks up her sleeve!"
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Roll Failed",
+                        "theScene": [  "ChangeImageLayer", "Expression", "Smug",
+                                       "...but with a swift beat of her wings, she manages to swerve into you in the middle of your attempt, tackling you into the ground, flat on your back! She uses the opportunity to grab your wrists and dominantly stand up over you.",
+                                       "JumpToScene",
+                                       "Mischievous Footjob"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Stand still!",
+                        "theScene": [  "IfChoice", "3", "MariFake", "MariFakeSawThrough",
+                                       "ChangeImageLayer", "Expression", "Smug",
+                                       "Giggling at your lack of resistance, Mari grabs your legs from behind and pulls them forward off of the ground, making you fall flat on your back! She uses the opportunity to grab your wrists and dominantly stand up over you.",
+                                       "ChangeImageLayer", "Expression", "SmugFang",
+                                       "Speaks",
+                                       "You could at least {i}try{/i} to keep up with me, you know~?",
+                                       "JumpToScene",
+                                       "Mischievous Footjob"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Mischievous Footjob",
+                        "theScene": [
+                                        "ApplyStance", "Footjob", "SetAttack", "Foot Stroke",
+                                        "ApplyStatusEffect", "Flower Hold",
+                                        "ChangeImageLayer", "Expression", "Seductive",
+                                        "With a magic-induced snap of her fingers, the flowers near your hands suddenly come alive and bind your wrists to the ground! Mari looks at you from above with a smile, and forcefully presses her wonderfully soft foot onto your manhood, starting to expertly tease and knead it..."
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "Mari's Electric Massage",
+                        "theScene": [   "ApplyStatusEffect", "Flower Hold",
+                                        "With a magic-induced snap of her fingers, the flowers near your hands suddenly come alive and bind your wrists to the ground!",
+                                        "With your hands restrained, she stands up and grabs both of your legs, pulling them upwards and leaving your groin wide open for her foot...",
+                                        "ApplyStance", "Electric Massage",
+                                        "NOTE This is temporarily disabled until a future update!"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "MariFakedOut",
+                        "theScene": [   "But as you ready your defense, Mari flies right through you and fades away in a blue light!",
+                                        "ChangeImageLayer", "AuraBody", "Mari", "",
+                                        "ChangeImageLayer", "AuraWings", "Mari", "",
+                                        "ChangeImageLayer", "Expression", "Smug",
+                                        "Taking advantage of your confusion, Mari creeps up from behind and latches onto your back with her arms and legs. She quickly takes control of your wrists and uses the propulsion of her wings to push you over! Caught by surprise, you topple forward...",
+                                        "ApplyStance", "Behind Footjob", "SetAttack", "Foot Stroke",
+                                        "ApplyStatusEffect", "Mischievous Footjob Hold",
+                                        "ChangeImageLayer", "Expression", "FangSmile",
+                                        "Reflexively, you fall with your hands forward and manage to break your fall without any damage, but your wrists are still held by Mari who uses her leverage to keep you pinned despite her light weight and weak strength.",
+                                        "ChangeImageLayer", "Expression", "LickingLips",
+                                        "Before you can even react, you gasp as you feel Mari's feet slip at your sides and close in on your cock, the soft touch sending a debilitating jolt of pleasure through your body. You have been restrained!"
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "BreakFree!",
+                        "theScene": [   "ClearStances",
+                                        "ChangeImageLayer", "Face", "",
+                                        "ChangeImageLayer", "Expression", "Smug",
+                                        "And you manage to shake off Mari's restraint! She flies away with a giggle before turning to her usual pose."
+
+                                  ]
+                    },
+                    {
+                        "NameOfScene": "EventIsBroke2",
+                        "theScene": [   "Event Machine is broke again, this time it's in combat events."
+
+                                  ]
+                    }
+
+                ]
+}

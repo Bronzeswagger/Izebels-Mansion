@@ -1,0 +1,46 @@
+{
+    "name": "Visit Mari",
+    "Description": "Go straight to Mari!",
+    "requires": [ ""],
+    "requiresEvent": [
+                        {
+                          "NameOfEvent": "Flowery Clearing",
+                          "Progress": "1",
+                          "ChoiceNumber": "-1",
+                          "Choice": ""
+                        }
+                      ],
+    "Deck": [ "Event", "Flowery Clearing"],
+    "RandomEvents": [ ""],
+    "RandomMonsters": [ "Blue Slime", "Lizard Girl"],
+    "MonsterGroups": [
+                  {
+                      "Monsters": [ "Blue Slime"]
+                  },
+                  {
+                      "Monsters": [ "Lizard Girl"]
+                  }
+                ],
+    "Treasure": [
+                {
+                    "Common": [ "Calming Potion", "Anaph Herb", "Ugli Herb"]
+                },
+                {
+                    "Uncommon": [ "Calming Potion", "Energy Potion", "Unbound Rune", "Stoic Rune", "Luck Rune", "Soothing Potion"]
+                },
+                {
+                    "Rare": [ "Panacea", "Luck Rune", "Stoic Rune", "Gloves of Skill", "Cock Ring of Justice", "Power Belt"]
+                }
+              ],
+    "Eros": [
+                {
+                    "Common": "25"
+                },
+                {
+                    "Uncommon": "75"
+                },
+                {
+                    "Rare": "150"
+                }
+              ]
+}
