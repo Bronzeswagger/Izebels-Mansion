@@ -77,7 +77,7 @@
                             ],
                     "pictures": [
                                   {
-                                      "Name": "",
+                                      "Name": "Base",
                                       "StartOn": "1",
                                       "AlwaysOn": "1",
                                       "IsScene": "0",
@@ -87,8 +87,8 @@
                                       "setYalign": "0.0",
                                       "Images": [
                                       {
-                                          "Name": "",
-                                          "File": "",
+                                          "Name": "Base",
+                                          "File": "../Mods/IzebelsMansion/Images/izebeldummy.jpg",
                                           "setXalign": "0.0",
                                           "setYalign": "0.0"
                                       }
