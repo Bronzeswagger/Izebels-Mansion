@@ -5,13 +5,13 @@
     "MonsterGroups": [
 
                   {
-                      "Monsters": [ ""]
+                      "Monsters": [ "Izebel"]
                   }
 
                 ],
-    "Events": [ "Old Mansion on Mystic Forest Hill"],
+    "Events": [ ""],
     "Quests": [ ""],
-    "Adventures": [ "Visit Izebel"],
+    "Adventures": [ ""],
     "Treasure": [
                 {
                     "Common": [ ""]
