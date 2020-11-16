@@ -23,7 +23,7 @@
     "maxRange": "120",
     "recoil": "10",
     "targetType": "single",
-    "statusEffect": "Charm", "Debuff",
+    "statusEffect": "Debuff",
     "statusChance": "70",
     "statusDuration": "2",
     "statusPotency": "10",

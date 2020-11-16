@@ -22,7 +22,7 @@
     "maxRange": "0",
     "recoil": "0",
     "targetType": "single",
-    "statusEffect": "Charm" "Trance" ,
+    "statusEffect": "Charm",
     "statusChance": "110",
     "statusDuration": "4",
     "statusPotency": "10",
