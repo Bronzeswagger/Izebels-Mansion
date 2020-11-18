@@ -8,17 +8,17 @@
     "tags": "none",
     "generic": "False",
     "requires": [ ""],
-    "skillList": ["SeductiveTitfuck", "SeductiveBlowjob", "DominatrixCharm", "WildBambooRide", "Titfuck", "Pierced Breast Tease", "Blowjob", "SensuallySeductiveKiss", "Making Out", "Lecherous Kiss", "Lips of Temptation", "RestrainedInsert"],
+    "skillList": ["SeductiveTitfuck", "SeductiveBlowjob", "DominatrixCharm", "WildBambooRide", "Titfuck", "Pierced Breast Tease", "Blowjob", "SensuallySeductiveKiss", "MakingOut", "LecherousKiss", "LipsOfTemptation", "RestrainedInsert", "ParalyticConcoction", "HypnoticConcoction"],
     "perks": [ "LadyDominatrix", "UndeniablePleasure", "NoAnus", "AllureOfTheNight", "EnticingTouch", "EcstaticStrike", "Loving", "Alluring", "Savvy"],
-    "stats": { "lvl": "35",
-              "Exp": "500",
-              "max_hp": "250",
+    "stats": { "lvl": "50",
+              "Exp": "1000",
+              "max_hp": "1000",
               "max_ep": "10",
-              "max_sp": "3",
+              "max_sp": "1",
               "Power": "30",
-              "Technique": "25",
-              "Intelligence": "20",
-              "Willpower": "5",
+              "Technique": "20",
+              "Intelligence": "35",
+              "Willpower": "15",
               "Allure": "40",
               "Luck": "5"
     },
@@ -47,7 +47,7 @@
     "ItemDropList": [
                       {
                         "name": "BambooLeaf",
-                        "dropChance": "15"
+                        "dropChance": "25"
                       }
                     ],
                     "lossScenes": [
@@ -65,162 +65,117 @@
                         {
                             "lineTrigger": "SetMusicTo",
                             "move": "",
-                            "theText": [ "music/Temple/aurora.mp3"]
+                            "theText": [ "music/Temple/Four colors.mp3"]
                         },
-                        {
-                            "lineTrigger": "AutoCounter",
-                            "move": "Anal Penetration",
-                            "theText": [ "|f|CallCombatEventAndScene|/|AikoCombatEvents|/|No Anal|n|"
-                                        ]
-                        },
-                        {
-                            "lineTrigger": "AutoCounter",
-                            "move": "Penetrate",
-                            "theText": [ "|f|CallCombatEventAndScene|/|AikoCombatEvents|/|Get Wrapped Up From Sex|n|" ]
-                        },
-                        {
-                          "lineTrigger": "StartOfCombat",
-                          "move": "",
-                          "theText": [ "|f|CallCombatEventAndScene|/|AikoCombatEvents|/|FightIntro|n|"]
-                        },
-
-
-                        {
-                            "lineTrigger": "EndOfRound",
-                            "move": "",
-                            "theText": [ "|f|CallCombatEventAndScene|/|AikoCombatEvents|/|Anger Check|n|"]
-                        },
-
-
                         {
                             "lineTrigger": "HitWith",
                             "move": "Spank",
-                            "theText": [ "|n|'Kya?!♥ Oh my!♥ I'm not one for pain... But I can't deny I love the feeling of a firm hand on my ass.♥'",
-                                        "|n|'Mnnn...♥ I can still feel my ass rippling from that.♥'",
-                                        "|n|'I'd prefer it if you just grope my ass instead, but I'm not complaining...♥'",
-                                        "|n|'Oh?!♥ Hehehe...♥'"
-                                        ]
+                            "theText": [ "I can't deny, I love the feeling of a firm hand on my ass.",
+                                        "Is that all?",
+                                        "I'd prefer it if you just let me do the work"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Pin",
-                            "theText": [ "|n|'O-Oh my... I- Well! Th-This is very uncalled for!'",
-                                        "|n|'I-I'm just trying to keep you warm!'",
-                                        "|n|'Y-You are in {i}so{/i} much trouble!'"
-                                        ]
+                            "theText": [ "Mmm....naughty, I like it",
+                                        "Thatta boy, let's breed like what we are"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Whip",
-                            "theText": [ "|n|'KYA?! ...You brute!'",
-                                        "|n|She gives you a threatening glare...",
-                                        "|n|'You better stop being so rude, or I'm going to have to get rough with you!'"
-                                        ]
+                            "theText": [ "You're doing nothing but turning me on",
+                                        "Aaaah! YES!!"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": "Demon Layer",
-                          "theText": [ "|n|'E-Even if it that feels good, please stop it.'",
-                                      "|n|She gives you a threatening glare...''",
-                                      "|n|'You better stop being so rude, or I'm going to have to get rough with you!'",
-                                      "|n|'I'm just trying to keep you warm!'" ]
+                          "theText": [ "My my, aren't we the Devil today?",
+                                      "She gives lustful look as if she wants more"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": "Holy Headpat",
-                          "theText": [ "Eh? Um, I'm the one who's supposed to be praising and pampering {i}you{/i}.'",
-                                    "|n|'Well, um, th-this is unexpected...'"]
+                          "theText": [ "I don't mind being your saint as long as you be my Devil",
+                                    "That kind of flattery goes nowhere with me"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Electrify",
-                            "theText": ["|n|KYA?! ...You brute!'",
-                                        "|n|She gives you a threatening glare...",
-                                        "|n|'You better stop being so rude, or I'm going to have to get rough with you!'"]
+                            "theText": [ "Mmm, shocking",
+                                        "Igniting my passion has never been this much fun "]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Lewd Bottle", "Cloying Mist", "Placebo Pheromone"],
-                            "theText": [ "|n|'A-Are you trying to {i}drug{/i} me?!'",
-                                        "|n|You shouldn't try to drug girls you know...' She gives you a threatening glare as the liquid aphrodisiac seeps into her skin...",
-                                        "|n|'Clearly you don't know how to treat a woman...'"]
+                            "theText": [ "Sometimes payback is a bitch, but so am I",
+                                        "Fool, I invented these, what makes you think they'll work?"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Kiss",
-                            "theText": [ "|n|'Mmm...♥ I'll kiss you as much as you want {ThePlayerName}.'",
-                                        "|n|'How sweet of you.♥'",
-                                        "|n|'We should get more... Intimate.♥'"]
+                            "theText": [ "Mmm...♥ I'll kiss you as much as you want",
+                                        "You can be more intimate than that..♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Deep Kiss", "Lovingly Rough Kiss", "Skillfully Passionate Kiss", "Misty Kiss", "Sensually Seductive Kiss"],
-                            "theText": [ "|n|'Mmm...♥ I'll kiss you as much as you want {ThePlayerName}.'",
-                                        "|n|'How sweet of you.♥'",
-                                        "|n|'Mmmm...♥'",
-                                        "|n|'You're going to be covered in kiss marks at this rate...♥"]
+                            "theText": [ "I have plenty kisses for you.",
+                                        "Mmmm...♥'",
+                                        "You're going to be my personal little devil at this rate"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Make Out",
-                            "theText": [ "|n|'Mmm...♥ I'll kiss you as much as you want {ThePlayerName}.'",
-                                        "|n|'How sweet of you.♥'",
-                                        "|n|'Come here.♥ I'll help warm you up.♥"]
+                            "theText": [ "Ahaha, there's nothing like a kiss to ignite the passion in our souls!",
+                                        "Mmmm...Moooooore...♥"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": ["Tit Fucking"],
-                          "theText": [ "|n|'That's it.♥ Warm yourself up.♥'",
-                                      "|n|'Feel free to cum between my breasts all you want.♥'",
-                                      "|n|'Oh my, you can't stop can you?♥'"]
+                          "theText": [ "Fuck my tiddies to your heart's content, let my tongue serve you♥'",
+                                      "Cum between my breasts...I want it alllllll ♥'",
+                                      "Oh my, you can't stop can you? ♥"]
                         },
 
                         {
                             "lineTrigger": "HitWith",
                             "move": "Breast Caress",
-                            "theText": [ "|n|'Ahh...♥ I just want to wrap you up in my breasts.♥'",
-                                        "|n|'They're very warm and cozy... I'm going to show you soon.♥'",
-                                        "|n|Your hands readily sink into her soft breasts, and her silken kimono adds a smooth texture to the already pleasant sensation.",
-                                        "|n|'Grope my breasts as much as you want.♥ I just want to help you warm up.♥'"]
+                            "theText": [ "Ahh...Yes...feel and enjoy my soft flesh",
+                                        "Why not try and milk me? ♥'",
+                                        "Your hands readily sink into her soft breasts, and her dress slowly falls off for your convienent pleasant view of her pierced bosom.",
+                                        "Ah Yes! Grope my tiddies as much as you want. ♥"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": ["Breast Knead", "Breast Massage", "Breast Fondle"],
-                          "theText": [ "|n|'Ahh...♥ I just want to wrap you up in my breasts.♥'",
-                                      "|n|'They're very warm and cozy... I'm going to show you soon.♥'",
-                                      "|n|Your hands readily sink into her soft breasts, and her silken kimono adds a smooth texture to the already pleasant sensation.",
-                                      "|n|'Grope my breasts as much as you want.♥ I just want to help you warm up.♥'"]
+                          "theText": [ "Want me to do something special? Just for you?",
+                                      "I love when you're all hands on.",
+                                      "The pain from where you're squeezing my breasts is exhilarating!! ♥"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": "Suckle",
-                          "theText": [ "|n|'Mmmm...♥ You're just making me want to wrap you up in my breasts.♥'",
-                                      "|n|'Ahh...?!♥ Licking my nipples through the fabric?♥ Mmmm♥...'",
-                                      "|n|You suck and tease Aiko's erect nipples through her kimono, and for some strange reason your saliva doesn't freeze in the frigid air...",
-                                      "|n|'Oh my...♥'"]
+                          "theText": [ "Looks like this Devil was thirsty",
+                                      "'Ahh...?! Licking my nipples makes me feel so good. ♥",
+                                      "You suck and tease Izebel's erect nipples with your tongue as she begins to be crazily sex-driven.",
+                                      "Darling, Let me help with that down there, he's looking awful lonely ♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Pinch Nipples",
-                            "theText": [ "|n|'Kya?! Be gentler!'",
-                                        "|n|'Eeek?! Don't be so rough! I'm warning you!'",
-                                        "|n|'HRPM! You better start being more gentle...'"]
+                            "theText": [ "Feisty, I LIKE IT!!"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Grope Ass", "Squeeze Ass", "Massage Ass", "Fondle Ass"],
-                            "theText": [ "|n|'Oh my...♥ Squeeze my ass much as you want.♥'",
-                                        "|n|'Mmmmm...♥'",
-                                        "|n|She presses her ass into your groping hand eagerly.",
-                                        "|n|'Oh...♥ You're making me feel so... Wanted.♥'",
-                                        "|n|'You're making me so... Eager for you...♥'"]
+                            "theText": [ "|n|Squeeze my ass much as you want darling. But don't get carried away ♥"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": ["Arouse", "Arousara", "Arousero"],
-                          "theText": [ "|n|'Oh!♥ I felt a little warmth there.'",
-                                      "|n|'Hm? Oh my, someone's trying to be naughty.♥'",
-                                      "|n|'Sorry, but your magic isn't going to help you stay warm.♥'" ]
+                          "theText": [ "Don't get me too excited, you might regret it",
+                                      "Mmm, someone's trying to be on my naughty list.♥",
+                                      "Sorry, but your magic isn't going to help you with your erection." ]
                         },
                         {
                           "lineTrigger": "HitWith",
