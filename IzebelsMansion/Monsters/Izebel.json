@@ -8,8 +8,8 @@
     "tags": "none",
     "generic": "False",
     "requires": [ ""],
-    "skillList": ["SeductiveTitfuck", "SeductiveBlowjob", "DominatrixCharm", "WildBambooRide", "Titfuck", "Pierced Breast Tease", "Blowjob", "SensuallySeductiveKiss", "MakingOut", "LecherousKiss", "LipsOfTemptation", "RestrainedInsert", "ParalyticConcoction", "HypnoticConcoction"],
-    "perks": [ "LadyDominatrix", "UndeniablePleasure", "NoAnus", "AllureOfTheNight", "EnticingTouch", "EcstaticStrike", "Loving", "Alluring", "Savvy"],
+    "skillList": ["Seductive Titfuck", "Seductive Blowjob", "Dominatrix Charm", "Wild Bamboo Ride", "Titfuck", "Pierced Breast Tease", "Blowjob", "Sensually Seductive Kiss", "Making Out", "Lecherous Kiss", "Lips Of Temptation", "Restrained Insert", "Paralytic Concoction", "Hypnotic Concoction"],
+    "perks": [ "LadyDominatrix", "UndeniablePleasure", "NoAnus", "AllureOfTheNight", "EnticingTouch", "SeductiveTouch", "Loving", "Alluring", "Savvy"],
     "stats": { "lvl": "50",
               "Exp": "1000",
               "max_hp": "1000",
@@ -20,34 +20,34 @@
               "Intelligence": "35",
               "Willpower": "15",
               "Allure": "40",
-              "Luck": "5"
+              "Luck": "13"
     },
     "Fetishes": [ ""],
     "BodySensitivity": { "Sex": "125",
               "Ass": "75",
               "Breasts": "95",
               "Mouth": "95",
-              "Seduction": "15",
+              "Seduction": "30",
               "Magic": "85",
-              "Pain": "15",
+              "Pain": "30",
               "Holy": "100",
-              "Unholy": "100"
+              "Unholy": "125"
     },
     "resistancesStatusEffects": {
               "Stun": "-10",
-              "Charm": "90",
-              "Aphrodisiac": "420",
-              "Restraints": "90",
-              "Sleep": "420",
-              "Trance": "420",
+              "Charm": "9999",
+              "Aphrodisiac": "80",
+              "Restraints": "50",
+              "Sleep": "80",
+              "Trance": "80",
               "Paralysis": "0",
-              "Debuff": "-10"
+              "Debuff": "20"
     },
-    "moneyDropped": "2500",
+    "moneyDropped": "3000",
     "ItemDropList": [
                       {
-                        "name": "BambooLeaf",
-                        "dropChance": "25"
+                        "name": "Apothecary's Bag of Herbs",
+                        "dropChance": "100"
                       }
                     ],
                     "lossScenes": [
@@ -65,100 +65,100 @@
                         {
                             "lineTrigger": "SetMusicTo",
                             "move": "",
-                            "theText": [ "music/Temple/Four colors.mp3"]
+                            "theText": ["../Mods/IzebelsMansion/Music/Battle_in_the_Moonlight.mp3"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Spank",
-                            "theText": [ "I can't deny, I love the feeling of a firm hand on my ass.",
-                                        "Is that all?",
-                                        "I'd prefer it if you just let me do the work"]
+                            "theText": [ "|n|I can't deny, I love the feeling of a firm hand on my ass.",
+                                        "|n|Is that all?",
+                                        "|n|I'd prefer it if you just let me do the work."]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Pin",
-                            "theText": [ "Mmm....naughty, I like it",
-                                        "Thatta boy, let's breed like what we are"]
+                            "theText": [ "|n|Mmm....naughty, I like it",
+                                        "|n|Thatta boy, let's breed like what we are."]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Whip",
-                            "theText": [ "You're doing nothing but turning me on",
+                            "theText": [ "|n|You're doing nothing but turning me on.",
                                         "Aaaah! YES!!"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": "Demon Layer",
-                          "theText": [ "My my, aren't we the Devil today?",
-                                      "She gives lustful look as if she wants more"]
+                          "theText": [ "|n|My my, aren't we the Devil today?",
+                                      "|n|She gives lustful look as if she wants more."]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": "Holy Headpat",
-                          "theText": [ "I don't mind being your saint as long as you be my Devil",
-                                    "That kind of flattery goes nowhere with me"]
+                          "theText": [ "|n|I don't mind being your saint as long as you be my Devil.",
+                                    "|n|That kind of flattery goes nowhere with me."]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Electrify",
-                            "theText": [ "Mmm, shocking",
-                                        "Igniting my passion has never been this much fun "]
+                            "theText": [ "|n|Mmm, shocking!|n|",
+                                        "|n|Igniting my passion has never been this much fun!"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Lewd Bottle", "Cloying Mist", "Placebo Pheromone"],
-                            "theText": [ "Sometimes payback is a bitch, but so am I",
-                                        "Fool, I invented these, what makes you think they'll work?"]
+                            "theText": [ "|n|Sometimes payback is a bitch, but so am I.",
+                                        "|n|Fool, I invented these, what makes you think they'll work?"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Kiss",
-                            "theText": [ "Mmm...♥ I'll kiss you as much as you want",
-                                        "You can be more intimate than that..♥"]
+                            "theText": [ "|n|Mmm...♥ I'll kiss you as much as you want.",
+                                        "|n|You can be more intimate than that..♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Deep Kiss", "Lovingly Rough Kiss", "Skillfully Passionate Kiss", "Misty Kiss", "Sensually Seductive Kiss"],
-                            "theText": [ "I have plenty kisses for you.",
-                                        "Mmmm...♥'",
-                                        "You're going to be my personal little devil at this rate"]
+                            "theText": [ "|n|I have plenty kisses for you.",
+                                        "|n|Mmmm...♥",
+                                        "|n|You're going to be my personal little devil at this rate."]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Make Out",
-                            "theText": [ "Ahaha, there's nothing like a kiss to ignite the passion in our souls!",
-                                        "Mmmm...Moooooore...♥"]
+                            "theText": [ "|n|Ahaha, there's nothing like a kiss to ignite the passion in our souls!",
+                                        "|n|Mmmm...Moooooore...♥"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": ["Tit Fucking"],
-                          "theText": [ "Fuck my tiddies to your heart's content, let my tongue serve you♥'",
-                                      "Cum between my breasts...I want it alllllll ♥'",
-                                      "Oh my, you can't stop can you? ♥"]
+                          "theText": [ "|n|Fuck my tiddies to your heart's content, let my tongue serve you.♥",
+                                      "|n|Cum between my breasts...I want it alllllll♥",
+                                      "|n|Oh my, you can't stop can you?♥"]
                         },
 
                         {
                             "lineTrigger": "HitWith",
                             "move": "Breast Caress",
-                            "theText": [ "Ahh...Yes...feel and enjoy my soft flesh",
-                                        "Why not try and milk me? ♥'",
-                                        "Your hands readily sink into her soft breasts, and her dress slowly falls off for your convienent pleasant view of her pierced bosom.",
-                                        "Ah Yes! Grope my tiddies as much as you want. ♥"]
+                            "theText": [ "|n|Ahh...Yes...feel and enjoy my soft flesh",
+                                        "|n|Why not try and suck them?♥",
+                                        "|n|Your hands readily sink into her soft breasts, and her dress slowly falls off for your convienent pleasant view of her pale pierced bosom.",
+                                        "|n|Ah Yes! Grope my tiddies as much as you want.♥"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": ["Breast Knead", "Breast Massage", "Breast Fondle"],
-                          "theText": [ "Want me to do something special? Just for you?",
-                                      "I love when you're all hands on.",
-                                      "The pain from where you're squeezing my breasts is exhilarating!! ♥"]
+                          "theText": [ "|n|Want me to do something special? Just for you?",
+                                      "|n|I love when you're all hands on.",
+                                      "|n|The pain from where you're squeezing my breasts is exhilarating!!♥"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": "Suckle",
-                          "theText": [ "Looks like this Devil was thirsty",
-                                      "'Ahh...?! Licking my nipples makes me feel so good. ♥",
-                                      "You suck and tease Izebel's erect nipples with your tongue as she begins to be crazily sex-driven.",
-                                      "Darling, Let me help with that down there, he's looking awful lonely ♥"]
+                          "theText": [ "|n|Looks like this Devil was thirsty|n|",
+                                      "'|n|Ahh...?! Licking my nipples makes me feel so good.♥",
+                                      "|n|You suck and tease Izebel's erect nipples with your tongue as she begins to be crazily sex-driven.",
+                                      "|n|Darling, Let me help with that down there, he's looking awful lonely.♥"]
                         },
                         {
                             "lineTrigger": "HitWith",
@@ -168,242 +168,215 @@
                         {
                             "lineTrigger": "HitWith",
                             "move": ["Grope Ass", "Squeeze Ass", "Massage Ass", "Fondle Ass"],
-                            "theText": [ "|n|Squeeze my ass much as you want darling. But don't get carried away ♥"]
+                            "theText": [ "|n|Squeeze my ass much as you want darling. But don't get carried away.♥"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": ["Arouse", "Arousara", "Arousero"],
-                          "theText": [ "Don't get me too excited, you might regret it",
-                                      "Mmm, someone's trying to be on my naughty list.♥",
-                                      "Sorry, but your magic isn't going to help you with your erection." ]
+                          "theText": [ "|n|Don't get me too excited, you might regret it.",
+                                      "|n|Mmm, someone's trying to be on my naughty list.♥",
+                                      "|n|Sorry, but your magic isn't going to help you with your erection." ]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": "Finger",
-                          "theText": [ "|n|'Mnnn...♥'",
-                                      "|n|'It's very warm, so just put your cock inside of me.♥'",
-                                      "|n|Her pussy warms up your fingers, but as soon as you pull them away from her, you shiver as frigid air blows over their slight length." ]
+                          "theText": [ "|n|Mnnn...♥",
+                                      "|n|Aaaah...♥"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": "Dildo",
-                          "theText": [ "|n|'Oh, don't bother with a silly toy like that...'",
-                                      "|n|'Mnnn...♥'",
-                                      "|n|'You won't get warm like that...'"]
+                          "theText": [ "|n|I want your cock, not a plaything."]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": ["Seduce", "Enamor", "Smoldering Seduction", "Smoldering Flaunt", "Massaging Seduction", "Mass Seduction"],
-                          "theText": [ "|n|'Well, aren't you sweet? Come on, let me warm you up real quick.♥'",
-                                      "|n|She smiles and blows you a kiss.",
-                                      "|n|'Hmhmhm...♥'"]
+                          "theText": [ "|n|My my, your flattery is unneeded when I already know what I want.",
+                                      "|n|She smiles devilishly and blows you a kiss.",
+                                      "|n|Hehehhahaha"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Ear Tease",
-                            "theText": [ "|n|'Well... Aren't you interesting.♥",
-                                        "|n|'Mmmm...♥'",
-                                        "|n|The taste of mint permeates your tongue as you pull away from her ear." ]
+                            "theText": [ "|n|Well... Aren't you interesting?",
+                                        "|n|The whispers only makes her more curious" ]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": ["Charm", "Charm Wave"],
-                          "theText": [ "|n|'O-Oh dear...♥ I haven't felt like this in a while...'",
-                                      "|n|'Mmm... Come here, I really want to warm you up now.♥'"]
+                          "theText": [ "|n|Dear...please. I am Charm"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": ["Enfeeble", "Sensitize"],
-                          "theText": [ "|n|'Honestly, there's no need to do something like that.'",
-                                      "'If you keep being naughty like that, I'll have to punish you.'" ]
+                          "theText": [ "|n|If you keep being naughty like that, I'll have to punish you."]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": ["Disarming Appeal"],
-                          "theText": [ "|n|'You're so cute...♥ Don't worry, I'll take good care of you.♥'",
-                                      "|n|'If you're cold, I'll warm you up, I promise.♥'",
-                                      "|n|'Don't worry, I'll pamper you all you want.♥'"]
+                          "theText": [ "|n|Hehehe, I'll take good care of you.♥"]
                         },
                         {
                           "lineTrigger": "Escape",
                           "move": ["Distract", "Teleport"],
-                          "theText": [ "|n|'Wha-? Y-You tricked me?!'",
-                                      "|n|'Huh?! I-I was just trying to keep you warm... Why are you being so rude!'"]
+                          "theText": [ "|n|Haha, I'm the master of playing cat and mouse"]
                         },
                         {
                           "lineTrigger": "HitWith",
                           "move": "Sleep",
-                          "theText": [ "|n|She yawns rather cutely, but she gives you a stern scowl soon after." ]
+                          "theText": [ "|n|Izebel does a playful yawn, but it didn't work" ]
                         },
                         {
-                            "lineTrigger": "HitWithA",
-                            "move": ["Thrust", "Channeling Thrust"],
-                            "theText": [ "|n|'MMmmm...♥ Just a little harder, please.♥'",
-                                        "|n|'I feel so warm...♥'",
-                                        "|n|'Ohhhh...♥ You're such a stud.♥'",
-                                        "|n|'Am I hot enough for you?♥ Hehehe.♥'",
-                                        "|n|'Squeeze my ass while you thrust.♥'"
-                                        ]
+                          "lineTrigger": "HitWithA",
+                          "move": ["Thrust", "Channeling Thrust"],
+                          "theText": [ "|n|MMmmm...I want to fuck you senseless.♥"]
                         },
                         {
-                            "lineTrigger": "HitWithA",
-                            "move": ["Pound", "Multi Thrust", "Carrying Fuck"],
-                            "theText": [ "|n|'MMmmm!♥ Yes!♥ Make me yours!♥'",
-                                        "|n|'O-Oh my!♥ I-I think I'm falling for you!♥'",
-                                        "|n|'Ohhhh!♥♥♥ Y-You stud!♥'",
-                                        "|n|'Ahhhh!♥ You're driving me wild!♥'",
-                                        "|n|'M-My mind's going blank!♥♥♥'"
-                                        ]
+                          "lineTrigger": "HitWithA",
+                          "move": ["Pound", "Multi Thrust", "Carrying Fuck"],
+                          "theText": [ "|n|Ahh!♥ Yes!♥ Make me yours!♥",
+                                        "|n|Aaaah!♥"]
                         },
                         {
-                            "lineTrigger": "HitWithA",
-                            "move": "Empowered Thrust",
-                            "theText": [ "|n|'O-Oh dear... Magic doesn't really work very well on me, could you maybe thrust normally?'",
-                                        "|n|'MMmmm...♥ Just a little harder, please.♥'",
-                                        "|n|'Am I hot enough for you?♥ Hehehe.♥'",
-                                        "|n|'Squeeze my ass while you thrust.♥'"
-                                        ]
+                          "lineTrigger": "HitWithA",
+                          "move": "Empowered Thrust",
+                          "theText": [ "|n|Mmm...faster! Harder!"]
                         },
                         {
                           "lineTrigger": "HitWithA",
                           "move": ["Tantric Thrust", "Passionate Lovemaking"],
-                          "theText": [ "|n|'Oh my...♥ I think I'm falling for you!♥'",
-                                      "|n|'Ohhhh...♥♥♥ You're quite the man...♥'",
-                                      "|n|'Ahhhh...♥ You're driving me wild.♥'",
-                                      "|n|'M-My mind's going blank...♥♥♥'|n|"]
+                          "theText": [ "|n|She bites her lip as she grabs a hold of you",
+                                      "|n|Oh YES! Make me your whore you fucking stud! ♥♥♥",
+                                      "|n|Ahhhh...Ahhhh, You're driving me wild! M-My mind's going blank...♥♥♥"]
                         },
-
+                        {
+                          "lineTrigger": "UsesMove",
+                          "move": "Wild Bamboo Ride",
+                          "theText": [ "|n|She wildly dominates your cock in a intimate moment of heat and pleasure, making you buck your hips to pleasure you both",
+                          "|n|'Ahha...I don't plant to hold back.♥ I want it all'",
+                          "|n|'Mmm...♥ D-Don't stop.♥'",
+                          "|n|'My heart is already racing...♥'"]
+                        },
+                        {
+                          "lineTrigger": "UsesMove",
+                          "move": "Dominatrix Charm",
+                          "theText": [ "|n|'Admit it, you can't resist me♥'",
+                          "|n|'You like what you see boy?♥'"]
+                        },
+                        { "lineTrigger": "UsesMove",
+                          "move": "Paralytic Concoction",
+                          "theText": [ "|n|'Did you know I am an Apothecary? I make these for a living.'",
+                          "|n|'Think its time I numb your efforts.'"]
+                        },
+                        { "lineTrigger": "UsesMove",
+                          "move": "Hypnotic Concoction",
+                          "theText": [ "|n|'Did you know I am an Apothecary? I make these for a living.'",
+                          "|n|'Want me to give you a lullaby?"]
+                        },
+                        {
+                          "lineTrigger": "UsesMove",
+                          "move": "SeductiveTitfuck",
+                          "theText": [ "|n|Izebel smiles as her tongue and breath causes you to shiver with delight while still being squeezed by her breasts to make an unbearable need to cum. 'I can tell from your eyes that you're loving this'"]
+                        },
+                        { "lineTrigger": "UsesMove",
+                          "move": "SeductiveBlowjob",
+                          "theText": [ "|n|Izebel ravishes your cock with sweet delight making suctions with a resounding pop, her tongue guiding its way all around your tip, and bobbing slowly as you're in anguish over the pleasant sensation"]
+                        },
                         {
                             "lineTrigger": "LowHealth",
                             "move": "",
-                            "theText": [ "|n|'Oh dear... I'm reaching my limit?♥'",
-                                        "|n|'Ah...♥ At this rate I won't be able to warm you up..."]
+                            "theText": [ "|n|Fuck...I'm reaching my limit?!♥",
+                                        "|n|At this rate, I'll be your bitch!"]
                         },
                         {
                             "lineTrigger": "PlayerLowHealth",
                             "move": "",
-                            "theText": [ "|n|'Ahhh... Your cock's pulsing. If you're going to cum, don't worry, I'll keep you warm.♥'",
-                                        "|n|'Cum as much as you want, I'll take care of you.♥'",
-                                        "|n|'Mmmm...♥ Go on, cum, I know you want to.♥'"]
+                            "theText": [ "|n|Ahhh...Your cock's pulsing. Fucking Cum already!",
+                                        "|n|Cum as much as you want, I'll take extra good care of you.♥",
+                                        "|n|Mmmm...♥ Go on, cum, I know you want to.♥"]
                         },
                         {
                             "lineTrigger": "OnPlayerOrgasm",
-                            "move": "Titfuck",
-                            "theText": [ "|f|ChangeImageLayer|/|Expression|/|AraAra|n||f|ChangeEnergyQuietly|/|20|n|Aiko hugs her breasts tightly together, creating an intense, building pressure in your loins. She teasingly jiggles and shakes her plush bosom, making your shaft pleasurably twitch in response to her every warm, rubbing stimulation, and your hips go numb with burning ecstasy.|n|Aiko lifts her sizable tits up, stroking your length at the same time, and you're overcome with orgasmic bliss as you powerfully spurt into her chest, watching mesmerized as not a single drop of your cum escapes her cleavage.|n||f|ChangeImageLayer|/|Expression|/|Base|n|'Nmmmm... I'm supposed to be the one warming {i}you{/i} up...' Aiko briefly frees your cock from her chest to show off the sight of your cum clinging to her breasts as it slowly gets absorbed into her skin with a warm, soft blue light before gently wrapping your cock back up in her warm, pillowy embrace.",
-                                        "|f|ChangeImageLayer|/|Expression|/|AraAra|n||f|ChangeEnergyQuietly|/|20|n|Aiko shakes her tits back and forth, not letting a single inch of your erect cock poke out of her pillowy bosom while she squishes and rolls her large breasts around your manhood, and you moan from the pleasant warmth growing in your hips as Aiko's tits constantly rub and squeeze against your length, sending waves of pleasure rolling through your groin.|n|You can't endure the stimulation any longer, and you involuntarily buck your hips into her marshmallowy tits, making them jiggle and bounce bewitchingly as you spurt your steamy semen between her chest, and only a few drops manage to escape her cleavage, which promptly gets absorbed into her skin along with the rest of your recent load with a warm, soft blue light while Aiko lets out a sultry giggle.",
-                                        "|f|ChangeImageLayer|/|Expression|/|Kiss|n||f|ChangeEnergyQuietly|/|20|n|Aiko squeezes her plump breasts together before pressing them down on your cock, allowing just the tip of your shaft to poke out from her deep cleavage, and she leans down and begins to pepper your cockhead with wet kisses, sending warm waves of pleasure rolling through your hips as your dick twitches and throbs with each kiss she plants on you.|n|At the same time, Aiko continues to roll her breasts around your cock, milking your length with her jiggling tits, and she eventually stops planting kisses on your throbbing manhood as she locks herself in a deep kiss with the tip, licking and sucking at it while she powerfully squeezes her chest together|n|The intense stimulation quickly becomes unbearable, and you cry out in ecstasy as you spurt load after of semen into her waiting mouth. As you orgasm finally ends, Aiko gives the head of your cock one final kiss, making you shiver with bliss before she buries it back within her cleavage, keeping it warm and safe as it pulses with need."
-                                      ]
+                            "move": ["Titfuck", "SeductiveTitfuck"],
+                            "theText": [ "|n|Izebel hugs her breasts tightly together around your shaft, creating an intense, building pressure in your loins. She teasingly licks the tip of your throbbing manhood and jiggles her pillows, making your shaft pleasurably twitch in response to her every soft and wet stimulation as your hips go numb with burning ecstasy.|n|Izebel tits stroking your length and her tongue and breath hitting your tip at the same time creates a tension that becomes   overcome with orgasmic bliss as you spurt your thick load into her mouth and chest, watching as she enjoys herself with a devilish smile as your semen hits her tongue and skin.|n|Nmmmm... You came so much, just for me?♥|n| Izebels then ravishes your cock still between her cum covered chest to take every sweet drop, going into a blowjob state causing you to immediately harden again before gently wrapping your cock back up in her bosom.",
+                                        "|n|Izebel then shakes her tits back and forth on your cock that has already been lubricated by her and your orgasm from a minute ago. She starts her tongue again on your manhood, and you moan from the pleasant sensation growing in your hips as Izebel's breath, tongue, and tits constantly creates a triple threat against your length, sending waves of pleasure rolling through your groin.|n|You can't endure the stimulation any much longer, and you involuntarily buck your hips into her tits, making them bounce bewitchingly as precum appears once more further lubricating your efforts, and only a few drops manage to escape her cleavage, while Izebel lets out a sultry giggle.",
+                                        "|n|Izebel squeezes her breasts together before pressing them down on your cock, allowing the tip of your shaft to poke out from her cleavage, leaning down as she peppers your cockhead with wet kisses, sending warm waves of pleasure rolling through your hips as your dick twitches and throbs with each lick of her tongue and breath she plants on to you.|n|At the same time, Izebel continues to roll her breasts around your cock, milking your length with her tits and eventually stops using her tongue on your throbbing manhood as she starts going faster with each bounce of her breasts, powerfully squeezing her chest together.|n|The intense stimulation of your lubricated cock quickly becomes unbearable, and you cry out in ecstasy as you blast another huge load of semen into her breasts and face. And as your orgasm finally ends, Izebel gives the head of your cock one final lick with her tongue, making you shiver in delight before she frees your cock from her cleavage, still pulsing and spurting a string of semen from chest to floor."]
 
                         },
                         {
                             "lineTrigger": "OnPlayerOrgasm",
-                            "move": "Warming Kisses",
-                            "theText": [ "|n|Aiko pulls you into a deep, mind numbing kiss, and the feeling of her lipstick marks covering your face send warm saves of pleasure tingling across your skin, and with a few gently strokes of her soft hand, you moan into Aiko's mouth as she milks a thick load of cum out of your throbbing erection!",
-                                        "|n|Aiko peppers your face with lipstick coated kisses, and as each one sends a warm wave of pleasure directly into your brain, you mindlessly grab ahold of Aiko and eagerly begin to hump her soft, silken clab leg as her kisses melt away your thoughts.|n|With a simple peck on the forehead, Aiko sends you flying over the edge, and your aching cock unloads thick ropes of cum onto her plush body, which her kimono and skin rapidly absorb with a warm, soft blue light. With a sultry giggle, Aiko pulls away from you."
-                                      ]
-                        },
-                        {
-                            "lineTrigger": "OnPlayerOrgasm",
-                            "move": "Silken Assjob",
-                            "theText": [ "|n|Arousal stricken and needing release, you grab ahold of Aiko's curvy rear and wildly thrust against her plush silken clad ass, sending shivers of pleasure ripple through your groin with every movement you make, and it doesn't take long for Aiko's soft butt to overwhelm your manhood, spurting long ropes of cum out of your cock all over Aiko's ass and back.|n|'Hahhh... You made quite the mess, didn't you? Hehehe.' Aiko slowly reaches her hand towards her back and scoops up a handful of your cum, staring you deep in the eyes as she slowly licks it off her fingers with a burningly sensual look.",
-                                        "|n|Aiko presses her plump rear against you shaft, and you're so completely overcome with lust that you eagerly embrace her from behind as she shakes her luscious ass against your throbbing cock.|n|Lustful moans escape your mouth as Aiko's jiggling silk covered rear easily grinds away what little resistance you had left until you shudder in ecstasy as you spurt thick ropes of cum onto her curvy body, which are promptly soaked into Aiko's skin and kimono and absorbed with a warm, light blue glow."
-                                      ]
-                        },
-                        {
-                            "lineTrigger": "OnPlayerOrgasm",
                             "move": "",
-                            "theText": [ "|n|You moan out in surprise as you orgasm without Aiko laying a single finger on you! 'Oh my... You must really need some comforting after that.'"
+                            "theText": [ "You moan out in surprise as you orgasm without Izebel laying a single finger on you! 'Oh my... You're pretty ripe with virility for the taking aren't you? I'll enjoy this.'"
                                       ]
                         },
                         {
                             "lineTrigger": "onOrgasm",
                             "move": "",
-                            "theText": [ "|n|'AHHHH!!!♥♥♥ I'm melting away!♥♥♥'",
-                                        "|n|'OHHHH!!!♥ Ahhhh...♥ You warmed {i}me{/i} up...♥'"
+                            "theText": [ "|n|'AHHHH!!!♥♥♥ You Devil!!!♥♥♥'",
+                                        "|n|'AHHHH!!!♥ Ahhhh...♥ You were...Super Effective...♥'"
                                       ]
                         },
                         {
                             "lineTrigger": "OnSurrender",
                             "move": "",
-                            "theText": [ "|n|'Ah... I'm so glad you want me to take care of you.♥'",
-                                        "|n|'I'll warm you up right away, you poor thing...'",
-                                        "|n|'You're giving up? That's okay, you don't have to strain yourself anymore.♥"]
+                            "theText": [ "|n|Haha, and I thought I was going to be the slut in this scenario, But I promise to make you feel goooood♥"]
                         },
                         {
                             "lineTrigger": "StanceStruggle",
-                            "move": "Titfuck",
-                            "theText": [ "{ThePlayerName} tries to pull {TargetHisOrHer} shaft free from Aiko's warm breasts...",
-                                        "{ThePlayerName} tries to push away Aiko's warm cleavage away from {TargetHisOrHer} manhood..."]
+                            "move": ["Titfuck", "SeductiveTitfuck"],
+                            "theText": [ "|n|{ThePlayerName} tries to pull {TargetHisOrHer} shaft free from Izebel's breasts and tongue...",
+                                        "|n|{ThePlayerName} tries to push away Izebel's cleavage away from {TargetHisOrHer} manhood..."]
                         },
                         {
                             "lineTrigger": "StanceStruggleFail",
-                            "move": "Titfuck",
-                            "theText": [ "But she keeps your cock firmly buried between her large breasts, giving you a warm squeeze between her cleavage.",
-                                        "But as you grab Aiko's voluptuous chest to push yourself away, she suddenly hugs her sizable mammaries together, trapping your hands in her soft tits!",
-                                        "But as you start to free yourself from her luscious tits, you can't help but shiver from the terrible cold outside of her full breasts, and shove your twitching cock right back into Aiko's warm cleavage...",
-                                        "But as she strokes your cock with her warm bosom, and you find the pleasure leaves you immobilized!.",
-                                        "But as you start to struggle away, Aiko's flesh sudddenly becomes as cold as ice, making you cry out in shock, forcing you to shiver in bliss as her breasts warm back up and continue to rub your length.",
-                                        "But as you start to pull away, Aiko gives your cock's tip a wet, loving kiss, and you moan as a warm wave of pleasure washes over your groin, and all thoughts of trying to get away are washed away by the delightful sensations of her chest and mouth."]
+                            "move": ["Titfuck", "SeductiveTitfuck"],
+                            "theText": [ "|n|But she keeps your cock firmly buried between her breasts, giving you a squeeze between her cleavage and a devilish lick on your cock as she smiles."]
                         },
                         {
                             "lineTrigger": "StanceStruggleComment",
-                            "move": "Titfuck",
-                            "theText": [ "|n|'Stop struggling, or your cock's going to get cold...'",
-                                        "|n|'Your cock's so happy here, don't try and deny it.'",
-                                        "|n|'Hehe, your cock won't stop throbbing between my breasts.'",
-                                        "|n|'You can hardly see your shaft between my huge breasts...'",
-                                        "|n|She teasingly shakes her chest with a small, warm smile."]
+                            "move": ["Titfuck", "SeductiveTitfuck"],
+                            "theText": [ "|n|'Don't try and deny my charms, you know you want to'",
+                                        "|n|She teasingly shakes her chest with a small, devilish smile."]
                         },
                         {
                             "lineTrigger": "StanceStruggleFree",
-                            "move": "Titfuck",
-                            "theText": [ "And manage to free your cock from Aiko's soft rack!",
-                                      "And free your manhood from Aiko's plump bosom!"]
+                            "move": ["Titfuck", "SeductiveTitfuck"],
+                            "theText": [ "|n|And manage to free your cock from Izebel's trap!"]
                         },
                         {
                             "lineTrigger": "StanceStruggleFreeComment",
-                            "move": "Titfuck",
-                            "theText": [ "|n|'Come back...♥ If you stop struggling, I can keep you nice and warm.'",
-                                        "|n|'I bet you'd rather fuck me instead, hmm?'",
-                                        "|n|'A bit longer in the cold will change your mind...'",
-                                        "|n|'I just want you to be warm...'",
+                            "move": ["Titfuck", "SeductiveTitfuck"],
+                            "theText": [ "|n|'I bet you'd rather fuck me instead, hmm?'",
                                         "|n|'Maybe some kisses will change your mind?'"]
                         },
                         {
                             "lineTrigger": "StanceStruggle",
                             "move": "Making Out",
-                            "theText": [ "{ThePlayerName} tries to break the intimate kiss with {AttackerName}..."]
+                            "theText": [ "|n|{ThePlayerName} tries to break the intimate kiss with {AttackerName}..."]
                         },
                         {
                             "lineTrigger": "StanceStruggleFail",
                             "move": "Making Out",
                             "theText": [ "But she keeps her arms firmly wrapped around your neck, peppering your face with kisses that leave her lipstick tingling on your skin.",
-                                        "But as you start to push her away, she presses her plump chest against you, making you falter as your heart skips a beat, leaving you open to more of her warm kisses.",
-                                        "But as she gives you a long, warm smooch, and you can't seem to recall why you ever wanted to pull away in the first place...",
-                                        "But you find your arms wrapping tightly around her, not wanting to leave her warm body behind as she peppers you with delightfully pleasant kisses..."]
+                                        "But you find your arms wrapping tightly around her, not wanting to leave her side as she kisses you with pleasant intimate kisses..."]
                         },
                         {
                             "lineTrigger": "StanceStruggleComment",
                             "move": "Making Out",
                             "theText": [ "",
-                                      "|n|A minty flavor lingers in your mouth as Aiko continues to twine her tongue around yours.",
-                                      "|n|'Oh, don't try and get away.'",
-                                      "|n|She keeps giving you kiss after warm kiss...",
-                                      "|n|'My kisses are warming you up...♥'",
-                                      "|n|Numerous warm, tingling lipstick marks are scattered all over your face."]
+                                      "|n|'Oh, don't try and get away, you know you want me'",
+                                      "|n|She keeps giving you intimate kisses..."]
                         },
                         {
                             "lineTrigger": "StanceStruggleFree",
                             "move": "Making Out",
-                            "theText": [ "And free your mouth from {AttackerName}'s soft plush lips!"]
+                            "theText": [ "And free your mouth from {AttackerName}'s soft lips!"]
                         },
                         {
                             "lineTrigger": "StanceStruggleFreeComment",
                             "move": "Making Out",
-                            "theText": [ "|n|'Aww... Don't you want another kiss?' You wipe away some of the lipstick on your face with a shiver...",
-                                        "|n|'A bit longer in the cold will change your mind...'",
-                                        "|n|'I just want you to be warm...'",
-                                        "|n|'Would you rather I wrap your cock up in my warm breasts?'"]
+                            "theText": [ "|n|'Playing hard to get won't work, I always get the hard ones, quite literally' She points to your erection",
+                                        "|n|'Would you rather I sandwich your cock instead in breasts?'"]
                         }
                         ],
                       "victoryScenes": [
