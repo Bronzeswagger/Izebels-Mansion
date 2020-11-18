@@ -1,5 +1,5 @@
 {
-    "name": "BambooLeaf",
+    "name": "Bamboo Leaf",
     "itemType": "NotCombatConsumable",
     "cost": "10",
     "requires": [ ""],
