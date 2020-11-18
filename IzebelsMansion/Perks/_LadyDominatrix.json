@@ -1,14 +1,14 @@
 {
     "name": "Lady Dominatrix",
-    "description": "You've been afflicted by the sexual prowess of Izebel. When afflicted with charm, you start the counter at 5, however, you will never lose your turn from the status effect if you're completely smitten. With some exceptions. You also gain 50 max arousal. But you gain 10 fetish in Sex & Breasts",
+    "description": "The devil of sexual prowess Izebel, not only does her damage she recieves decrease, but she also increases her Allure stat and Recoil Damage dealt.",
 
     "LevelReq": "0",
     "PerkReq": [ ""],
     "StatReq": [ ""],
     "StatReqAmount": [ "0"],
 
-    "PerkType": [ "GainArousal", "IncreaseFetish", "IncreaseFetish"],
-    "EffectPower": [ "50",          "Sex|/|10",      "Breasts|/|10"],
+    "PerkType": [ "StatusIcon", "TurnDuration", "DamageReduction", "RecoilBoost", "Allure"],
+    "EffectPower": [ "../Mods/IzebelsMansion/Images/ladydominatrix.png", "5", "-10", "10", "10"],
 
     "PlayerCanPurchase": "No"
 }

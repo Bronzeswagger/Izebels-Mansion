@@ -68,6 +68,11 @@
                             "theText": ["../Mods/IzebelsMansion/Music/Battle_in_the_Moonlight.mp3"]
                         },
                         {
+                            "lineTrigger": "StartOfCombat",
+                            "move": "",
+                            "theText" : ["|f|CallCombatEventAndScene|/|LadyDominatrixCombatEvents|/|Lady Dominatrix|n|"]
+                        },
+                        {
                             "lineTrigger": "HitWith",
                             "move": "Spank",
                             "theText": [ "|n|I can't deny, I love the feeling of a firm hand on my ass.",
