@@ -18,7 +18,7 @@
     "requiresStatusEffect": "None",
     "requiresStatusPotency": "0",
     "unusableIfStatusEffect": [ "None"],
-    "power": "10",
+    "power": "20",
     "minRange": "70",
     "maxRange": "90",
     "recoil": "0",
