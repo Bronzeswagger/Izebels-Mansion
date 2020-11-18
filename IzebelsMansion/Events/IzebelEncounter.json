@@ -27,14 +27,14 @@
                 ],
     "EventText": [
                     {
-                        "NameOfScene": "EventStart",
-                        "theScene": [ 
+                    "NameOfScene": "EventStart",
+                    "theScene": [
 
                                   ]
                     },
                     {
-                        "NameOfScene": "EventIsBroke",
-                        "theScene": [  "Event machine broke, tell Bronzeswagger about this!"
+                    "NameOfScene": "EventIsBroke",
+                    "theScene": [  "Event machine broke, tell Bronzeswagger about this!"
 
                                   ]
                     }

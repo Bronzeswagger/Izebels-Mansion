@@ -33,7 +33,7 @@
     "descrip": "",
     "outcome": "",
     "miss": "",
-    "statusOutcome": "|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|Sexual Promise",
+    "statusOutcome": "|f|CallCombatEventAndScene|/|SexualPromiseCombatEvents|/|Sexual Promise",
     "statusMiss": "",
     "restraintStruggle": "",
     "restraintStruggleCharmed": "",
