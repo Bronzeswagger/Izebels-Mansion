@@ -26,13 +26,42 @@
                                           "EndLoop",
                                           "SetPostName", "",
                                           "IfFetishLevelEqualOrGreater", "Breasts", "100", "CantResistOffer",
-                                          "StatCheck",
-                                              "Temptation",
-                                              "20",
-                                              "PassResistCheck",
-                                              "Fail",
-                                              "I knew you couldn't resist..."
+                                          "Menu",
+                                          "Fuck her tiddies!",
+                                          "Ignore the offer.",
+                                          "EndLoop"
                                             ]
-                                          }
+                        },
+
+                        {
+                            "NameOfScene": "Fuck her tiddies!",
+                            "theScene": [
+                                          "ApplyStance", "Titfuck",
+                                          "HitPlayerWith", "ForeplayDefDown",
+                                          "Izebel smiles devilishly as she wraps her soft breasts around you, letting out a sigh of bliss as it massages your every inch.{DamageToPlayer}"
+                                        ]
+                          },
+                              {
+                            "NameOfScene": "CantResistOffer",
+                            "theScene": [
+                                          "ApplyStance", "Titfuck",
+                                          "HitPlayerWith", "ForeplayDefDown",
+                                          "Without a second thought you rush forward to accept her seductive offer, your mind to focused on thoughts of sex to even think of resisting the temptation of her tight pussy, and you sigh blissfully as it lovingly squeezes your throbbing length."
+                                            ]
+                              },
+                          {
+                            "NameOfScene": "Ignore the offer.",
+                            "theScene": [
+                                          "You think of resisting Izebel's offer of her soft pillows, but her sexual prowess is making it a little hard to think straight...",
+                                          "StatCheck",
+                                          "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "25", "2",
+                                          "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "50", "3",
+                                          "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "75", "5",
+                                          "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Charm", "4",
+                                          "Temptation", "5",   "IgnoredBreasts",
+                                          "Fail",
+                                          "CantResistOffer"
+                                        ]
+                          }
 ]
 }
