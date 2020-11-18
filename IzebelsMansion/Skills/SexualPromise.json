@@ -9,7 +9,7 @@
     "requiredStat": "0",
     "skillTags": [ "Seduction"],
     "fetishTags": [ "Oral"],
-    "startsStance": "Blowjob",
+    "startsStance": "none",
     "requiresStance": "Any",
     "unusableIfStance": [ "Making Out", "Blowjob"],
     "requiresTargetStance": [ "Any"],
