@@ -4,7 +4,7 @@
     "costType": "ep",
     "requiredLevel": "0",
     "learningCost": "0",
-    "skillType": "statusEffect",
+    "skillType": "attack",
     "statType": "Allure",
     "requiredStat": "0",
     "skillTags": [ "Seduction"],

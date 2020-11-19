@@ -8,7 +8,7 @@
     "StatReqAmount": [ "0"],
 
     "PerkType": [ "StatusIcon", "TurnDuration", "DamageReduction", "RecoilBoost", "Allure"],
-    "EffectPower": [ "../Mods/IzebelsMansion/Images/ladydominatrix.png", "5", "-10", "10", "10"],
+    "EffectPower": [ "../Mods/IzebelsMansion/Images/ladydominatrix.png", "7", "-10", "10", "10"],
 
     "PlayerCanPurchase": "No"
 }
