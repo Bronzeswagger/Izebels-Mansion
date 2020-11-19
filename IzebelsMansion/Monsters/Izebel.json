@@ -62,15 +62,15 @@
     }
     ],
     "combatDialogue": [
+    {
+                            "lineTrigger": "SetMusicTo",
+                            "move": "",
+                            "theText": ["../Mods/IzebelsMansion/Music/Rakshasa.mp3"]
+                        },
                         {
                             "lineTrigger": "StartOfCombat",
                             "move": "",
                             "theText" : ["|f|CallCombatEventAndScene|/|LadyDominatrixCombatEvents|/|Lady Dominatrix|n|"]
-                        },
-                        {
-                            "lineTrigger": "SetMusicTo",
-                            "move": "",
-                            "theText": ["../Mods/IzebelsMansion/Music/Dynamic_Samurai.mp3"]
                         },
                         {
                             "lineTrigger": "HitWith",
