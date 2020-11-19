@@ -1,5 +1,5 @@
 {
-    "name": "LadyDominatrixCombatEvents",
+    "name": "DominatrixCombatEvents",
     "CardType": "",
     "CardLimit": "0",
     "Description": "",
@@ -14,11 +14,11 @@
     "EventText": [
 
                       {
-                        "NameOfScene": "Lady Dominatrix",
+                        "NameOfScene": "Dominatrix",
                         "theScene": [
                                     "ApplyStatusEffect", "Charm",
-                                    "GivePerkQuietly", "Lady Dominatrix",
-                                    "Izebel smiles like the cat ready to pounce. |n|Why fight? You're the first visitor I've had in years, wouldn't you rather have some adult fun? I know your bulge says so"
+                                    "GivePerkQuietly", "Dominatrix",
+                                    "Izebel smiles like the cat ready to pounce. |n|Why fight? You're the first visitor I've had in years, wouldn't you rather have some adult fun?"
                    ]
                }
 ]

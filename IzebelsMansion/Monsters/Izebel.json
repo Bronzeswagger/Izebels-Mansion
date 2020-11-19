@@ -9,7 +9,7 @@
     "generic": "False",
     "requires": [ ""],
     "skillList": ["Seductive Titfuck", "Seductive Blowjob", "Dominatrix Charm", "Wild Bamboo Ride", "Pierced Breast Tease", "Numbed Insert", "Sleepy Boy Toy", "Paralytic Concoction", "Hypnotic Concoction", "Raigeki Flask", "Sexual Promise"],
-    "perks": ["Lady Dominatrix", "Alluring"],
+    "perks": ["Dominatrix", "Alluring"],
     "stats": { "lvl": "40",
               "Exp": "500",
               "max_hp": "1000",
@@ -70,7 +70,7 @@
                         {
                             "lineTrigger": "StartOfCombat",
                             "move": "",
-                            "theText" : ["|f|CallCombatEventAndScene|/|LadyDominatrixCombatEvents|/|Lady Dominatrix|n|"]
+                            "theText" : ["|f|CallCombatEventAndScene|/|DominatrixCombatEvents|/|Dominatrix|n|"]
                         },
                         {
                             "lineTrigger": "HitWith",

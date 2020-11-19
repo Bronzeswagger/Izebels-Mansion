@@ -1,5 +1,5 @@
 {
-    "name": "Lady Dominatrix",
+    "name": "Dominatrix",
     "description": "The devil of sexual prowess Izebel, not only does her damage she recieves decrease, but she also increases her Allure stat and Recoil Damage dealt.",
 
     "LevelReq": "0",
@@ -8,7 +8,7 @@
     "StatReqAmount": [ "0"],
 
     "PerkType": [ "StatusIcon", "TurnDuration", "DamageReduction", "RecoilBoost", "Allure"],
-    "EffectPower": [ "../Mods/IzebelsMansion/Images/ladydominatrix.png", "7", "-10", "10", "10"],
+    "EffectPower": [ "../Mods/IzebelsMansion/Images/Dominatrix.png", "7", "-10", "10", "10"],
 
     "PlayerCanPurchase": "No"
 }
