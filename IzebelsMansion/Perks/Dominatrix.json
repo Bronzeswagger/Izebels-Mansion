@@ -7,8 +7,8 @@
     "StatReq": [ ""],
     "StatReqAmount": [ "0"],
 
-    "PerkType": [ "StatusIcon", "TurnDuration", "DamageReduction", "RecoilBoost", "Allure"],
-    "EffectPower": [ "../Mods/IzebelsMansion/Images/Dominatrix.png", "7", "-10", "10", "10"],
+    "PerkType": [ "StatusIcon", "TurnDuration", "DamageReduction", "Allure"],
+    "EffectPower": [ "../Mods/IzebelsMansion/Images/Dominatrix.png", "7", "-10", "10"],
 
     "PlayerCanPurchase": "No"
 }
