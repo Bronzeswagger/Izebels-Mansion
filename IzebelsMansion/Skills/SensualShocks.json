@@ -12,7 +12,7 @@
     "startsStance": "",
     "requiresStance": "Any",
     "unusableIfStance": [ ""],
-    "requiresTargetStance": [ "Any"],
+    "requiresTargetStance": [ "Sex", "Blowjob", "Titfuck"],
     "unusableIfTarget": [ ""],
     "removesStance": "None",
     "requiresStatusEffect": "None",
