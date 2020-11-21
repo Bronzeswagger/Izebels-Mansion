@@ -55,9 +55,7 @@
                                           "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "50", "3",
                                           "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "75", "5",
                                           "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Charm", "4",
-                                          "StatCheck", "IgnoredTitfuck",
-                                          "Temptation",
-                                          "15",
+                                          "Temptation", "15", "IgnoredTitfuck",
                                           "Fail",
                                           "CantResistOffer"
                                         ]

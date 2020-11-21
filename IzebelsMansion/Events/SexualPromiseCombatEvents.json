@@ -55,10 +55,7 @@
                                           "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "50", "3",
                                           "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "75", "5",
                                           "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Charm", "4",
-                                          "StatCheck",
-                                          "Temptation",
-                                          "15",
-                                          "IgnoredBlowjob",
+                                          "Temptation", "15", "IgnoredBlowjob",
                                           "Fail",
                                           "CantResistOffer"
                                         ]
