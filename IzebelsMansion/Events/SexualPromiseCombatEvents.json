@@ -15,8 +15,7 @@
 
       {
                             "NameOfScene": "Sexual Promise",
-                            "theScene": [ "HitPlayerWith", "Sexual Promise",
-                                          "SetPostName", " - Sexual Promise",
+                            "theScene": [ "SetPostName", " - Sexual Promise",
                                           "FocusedSpeaksSkill",
                                           "Izebel manages to catch {TargetName} and pin him to a corner long enough to take a good look at his throbbing erection.{DamageToPlayer}",
                                           "FocusedSpeaks",
