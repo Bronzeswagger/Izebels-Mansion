@@ -3,23 +3,23 @@
     "IDname": "Izebel",
     "species": "Bear",
     "gender": "female",
-    "description": "The apotehcary and owner of an established shop on Bamboo Hill. She sells various items, but mostly is known during the night as a prostitute to higher class clients. Only a select few get to bear witness to her beauty and performance, but not without also paying a heavy price.",
+    "description": "The owner of an established shop on Bamboo Hill. She is an apothecary that sells various items, but mostly is known during the night as a prostitute to higher class clients. Only a select few get to bear witness to her beauty and performance, but not without also paying a heavy price.",
     "encyclopedia": "",
     "tags": "none",
     "generic": "False",
     "requires": [ ""],
-    "skillList": ["Seductive Titfuck", "Seductive Blowjob", "Dominatrix Charm", "Wild Bamboo Ride", "Pierced Breast Tease", "Numbed Insert", "Sleepy Boy Toy", "Paralytic Concoction", "Hypnotic Concoction", "Sexual Promise", "Pressure Titfuck", "Sensual Gyration", "Kiss", "Make Out", "Sensually Seductive Kiss", "Skillfully Passionate Kiss", "Sensual Shocks", "BreastSmother",  "Bamboo Handling"  ],
+    "skillList": ["Seductive Titfuck", "Seductive Blowjob", "Dominatrix Charm", "Wild Bamboo Ride", "Pierced Breast Tease", "Sleepy Boy Toy", "Hypnotic Suggestion", "Sexual Promise", "Pressure Titfuck", "Sensual Gyration", "Kiss", "Make Out", "Sensually Seductive Kiss", "Skillfully Passionate Kiss", "Sensual Shocks", "BreastSmother", "Bamboo Handling"],
     "perks": ["Dominatrix", "Alluring", "Sensual Pace", "Unbounded", "Seductive Touch", "Ecstatic Strike", "Enticing Touch"],
     "stats": { "lvl": "40",
               "Exp": "500",
-              "max_hp": "300",
+              "max_hp": "850",
               "max_ep": "10",
-              "max_sp": "2",
-              "Power": "20",
-              "Technique": "35",
-              "Intelligence": "20",
-              "Allure": "35",
-              "Willpower": "25",
+              "max_sp": "1",
+              "Power": "16",
+              "Technique": "40",
+              "Intelligence": "24",
+              "Allure": "40",
+              "Willpower": "20",
               "Luck": "10"
     },
     "Fetishes": [ ""],
@@ -46,8 +46,8 @@
     "moneyDropped": "1000",
     "ItemDropList": [
     {
-    "name": "Apothecary's Bag of Herbs",
-    "dropChance": "100"
+    "name": "",
+    "dropChance": ""
     }
     ],
     "lossScenes": [
