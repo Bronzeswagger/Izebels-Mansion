@@ -46,8 +46,8 @@
     "moneyDropped": "1000",
     "ItemDropList": [
     {
-    "name": "",
-    "dropChance": ""
+    "name": "Rune of Temptation",
+    "dropChance": "15"
     }
     ],
     "lossScenes": [
