@@ -26,7 +26,7 @@
     "statusEffect": "Sleep",
     "statusChance": "75",
     "statusDuration": "25",
-    "statusPotency": "2",
+    "statusPotency": "10",
     "statusResistedBy": "Willpower",
     "statusText": "",
     "descrip": "A magic that can be put people into a sleepy sensational state.",

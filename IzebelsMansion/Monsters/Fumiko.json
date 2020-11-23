@@ -1,0 +1,55 @@
+{
+  "name": "Fumiko",
+    "IDname": "Fumiko",
+    "species": "succubus",
+    "gender": "female",
+    "description": "A gorgeous looking woman with an appearance close to that of human, but has long, beautiful hair with an alluring charm that is inhuman. She wears a stunning magnetta-colored kimono and cherry blossom haircomb in her illustrious hair that somewhat disguises the rest of her as you can barely make out her sweet innocent face, her chest, and her long beautiful legs.",
+    "encyclopedia": "",
+    "tags": "none",
+    "generic": "False",
+    "requires": [ ""],
+    "skillList": [ "Hairjob", "Hair Manipulation", "Prehensile Hair", "Hair Generation", "Hair Tease", "Hair Trigger", "Hair Whip", "Hair Coccoon", "Cocoon Sex", "Breast Smothering", "Breast Suffocation", "SexualTempt", "Distract", "EarTease" ],
+    "perks": [  ],
+    "stats": { "lvl": "30",
+              "Exp": "500",
+              "max_hp": "500",
+              "max_ep": "100",
+              "max_sp": "1",
+              "Power": "25",
+              "Technique": "15",
+              "Intelligence": "20",
+              "Allure": "40",
+              "Willpower": "10",
+              "Luck": "15"
+},
+  "Fetishes": [ ""],
+  "BodySensitivity":{
+    "Sex": "100",
+    "Ass": "90",
+    "Breasts": "90",
+    "Mouth": "150",
+    "Seduction": "90",
+    "Magic": "75",
+    "Pain": "75",
+    "Holy": "100",
+    "Unholy": "100"
+
+},
+  "resistancesStatusEffects": {
+    "Stun": "0",
+    "Charm": "25",
+    "Aphrodisiac": "50",
+    "Restraints": "15",
+    "Sleep": "25",
+    "Trance": "15",
+    "Paralysis": "0",
+    "Debuff": "10"
+},
+  "moneyDropped": "500",
+  "ItemDropList": [
+{
+    "name": "Fumiko's Lock of Hair",
+    "dropChance": "20"
+}
+]
+}

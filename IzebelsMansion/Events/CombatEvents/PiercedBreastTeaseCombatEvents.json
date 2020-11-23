@@ -20,8 +20,8 @@
                                           "Izebel reveals her pierced tiddies, giving her plump pale chest an enticing shake.",
                                           "FocusedSpeaks",
                                           "SwapLineIf", "Random",
-                                          "Are you sure you don't want these bad boys, and my tongue to help?",
-                                          "Your cock is rock solid from the sight of her bountiful soft breasts, and it's hard to even say no to her enticing suggestion of her valley...",
+                                          "'Are you sure you don't want these bad boys, and my tongue to help?'",
+                                          "Your cock is rock solid from the sight of her bountiful soft breasts, and it's hard to even say no to her enticing suggestion...",
                                           "EndLoop",
                                           "SetPostName", "",
                                           "IfFetishLevelEqualOrGreater", "Breasts", "100", "CantResistOffer",
@@ -45,6 +45,7 @@
                               {
                             "NameOfScene": "IgnoredTitfuck",
                             "theScene": [ "Izebel frowns in annoyance as you ignore her offer.",
+                                          "FocusedSpeaks",
                                           "'Awww, you poor thing...maybe something else?'"]
                               },
                               {

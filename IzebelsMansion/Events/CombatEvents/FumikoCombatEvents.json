@@ -1,0 +1,36 @@
+{
+    "name": "FumikoCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Fumiko",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+               ],
+    "EventText": [
+                 {
+                      "NameOfScene": "Hair Manipulation",
+                      "theScene":[ "SkipPlayerAttack",
+                        "As you attempt to make a move on Fumiko, you stop in your tracks as she creates a distraction with her alluring hair.",
+                        "Speaks",
+                        "You wouldn't hurt me would you?",
+                        "ApplyStatusEffect",
+                        "Trance",
+                        "Speaks",
+                        "All I want to do is pleasure you~.♥",
+                        "ApplyStance",
+                        "Hairjob"
+                  ]
+                },
+
+                {
+                      "NameOfScene":"Hair Trigger",
+                      "theScene":[
+                        ]
+                      }
+        ]
+}

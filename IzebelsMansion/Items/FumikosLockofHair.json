@@ -1,0 +1,23 @@
+{
+    "name": "Fumiko's Lock of Hair",
+    "itemType": "Accessory",
+    "cost": "10000",
+    "descrip": "As long as its held, it increases allure by 25, but you lose half your max arousal.",
+    "requires": [ ""],
+    "perks": [ ""],
+
+    "hp": "-%50",
+    "ep": "0",
+    "sp": "0",
+
+    "Exp": "0",
+    "Power": "0",
+    "Technique": "0",
+    "Intelligence": "0",
+    "Allure": "25",
+    "Willpower": "0",
+    "Luck": "0",
+
+    "useOutcome": "",
+    "useMiss": ""
+}
