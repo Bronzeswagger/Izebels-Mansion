@@ -25,12 +25,12 @@
     "Fetishes": [ ""],
     "BodySensitivity": { "Sex": "120",
               "Ass": "60",
-              "Breasts": "100",
+              "Breasts": "90",
               "Mouth": "90",
               "Seduction": "90",
               "Magic": "100",
-              "Pain": "120",
-              "Holy": "50",
+              "Pain": "100",
+              "Holy": "60",
               "Unholy": "150"
     },
     "resistancesStatusEffects": {
