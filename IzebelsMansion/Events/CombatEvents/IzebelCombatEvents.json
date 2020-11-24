@@ -1,0 +1,129 @@
+{
+  "name": "IzebelCombatEvents",
+  "CardType": "",
+  "CardLimit": "0",
+  "Description": "",
+  "requires": [ ""],
+  "Speakers": [
+              {
+                "name": "Izebel",
+                "postName": "",
+                "SpeakerType": "Monster"
+              }
+            ],
+"EventText": [
+
+                  {
+                        "NameOfScene": "Dominatrix",
+                        "theScene": [
+                                       "ApplyStatusEffect", "Charm",
+                                       "GivePerkQuietly", "Dominatrix",
+                                       "Why fight? You can't resist my charms, wouldn't you rather have some adult fun?"]
+                  },
+                  {
+                        "NameOfScene": "I'm Not Your Damn Saint",
+                        "theScene": [  "SetPostName", "- I'm Not Your Damn Saint",
+                                       "HitPlayerWith",
+                                       "Sensual Shocks",
+                                       "ApplyStatusEffect",
+                                       "%Power",
+                                       "{AttackerName} released several several shocks on {ThePlayerName} causing him to lose strength!",
+                                       "Speaks",
+                                       "'That kind of flattery goes nowhere with me.'"]
+                  },
+                  {
+                        "NameOfScene": "Pierced Breast Tease",
+                        "theScene": [  "SetPostName", " - Pierced Breast Tease",
+                                       "FocusedSpeaksSkill",
+                                       "Izebel reveals her pierced tiddies, giving her plump pale chest an enticing shake.",
+                                       "FocusedSpeaks",
+                                       "SwapLineIf", "Random",
+                                       "'Are you sure you don't want these bad boys, and my tongue to help?'",
+                                       "Your cock is rock solid from the sight of her bountiful soft breasts, and it's hard to even say no to her enticing suggestion...",
+                                       "EndLoop",
+                                       "SetPostName", "",
+                                       "IfFetishLevelEqualOrGreater", "Breasts", "100", "CantResistBreasts",
+                                       "Menu",
+                                       "Fuck her tiddies!",
+                                       "Ignore her Breasts.",
+                                       "EndLoop"]
+                  },
+                  {
+                        "NameOfScene": "Fuck her tiddies!",
+                        "theScene": [  "ApplyStance", "Titfuck",
+                                       "HitPlayerWith", "Seductive Titfuck",
+                                       "Izebel smiles devilishly as she wraps her soft breasts around you, letting out a sigh of bliss as it massages your every inch."]
+                  },
+                  {
+                        "NameOfScene": "CantResistBreasts",
+                        "theScene": [  "ApplyStance", "Titfuck",
+                                       "HitPlayerWith", "Seductive Titfuck",
+                                       "Without a second thought you rush forward to accept her seductive offer, your mind to focused on thoughts of sex to even think of resisting the temptation of her tight pussy, and you sigh blissfully as it lovingly squeezes your throbbing length."]
+                  },
+                  {
+                        "NameOfScene": "IgnoredTitfuck",
+                        "theScene": [  "Izebel frowns in annoyance as you ignore her offer.",
+                                       "FocusedSpeaks",
+                                       "'Awww, you poor thing...maybe something else?'"]
+                  },
+                  {
+                        "NameOfScene": "Ignore her Breasts.",
+                        "theScene": [  "You think of resisting Izebel's offer of her soft pillows, but her sexual prowess is making it a little hard to think straight...",
+                                       "StatCheck",
+                                       "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "25", "2",
+                                       "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "50", "3",
+                                       "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Breasts", "75", "5",
+                                       "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Charm", "4",
+                                       "Temptation", "20", "IgnoredTitfuck",
+                                       "Fail",
+                                       "CantResistBreasts"]
+                  },
+                  {
+                        "NameOfScene": "Sexual Promise",
+                        "theScene": [  "SetPostName", " - Sexual Promise",
+                                       "FocusedSpeaksSkill",
+                                       "Izebel manages to catch {TargetName} and pin him to a corner long enough to take a good look at his throbbing erection.",
+                                       "FocusedSpeaks",
+                                       "SwapLineIf", "Random",
+                                       "You're pretty big, why not let me have a taste? It won't do you any harm..hehehe",
+                                       "Your cock is aching for Izebel to pepper you and it's hard to even say no to her enticing suggestion help you along...",
+                                       "EndLoop",
+                                       "SetPostName", "",
+                                       "IfFetishLevelEqualOrGreater", "Oral", "100", "CantResistOral",
+                                       "Menu",
+                                       "Let her service you!",
+                                       "Ignore her offer.",
+                                       "EndLoop"]
+                  },
+                  {
+                        "NameOfScene": "Let her service you!",
+                        "theScene": [  "ApplyStance", "Blowjob",
+                                       "HitPlayerWith", "Seductive Blowjob",
+                                       "Izebel smiles devilishly as she wraps her soft breasts around you, letting out a sigh of bliss as it massages your every inch."]
+                  },
+                  {
+                        "NameOfScene": "CantResistOral",
+                        "theScene": [  "ApplyStance", "Blowjob",
+                                       "HitPlayerWith", "Seductive Blowjob",
+                                       "Without a second thought you rush forward to accept her seductive offer, your mind to focused on thoughts of sex to even think of resisting the temptation of her tight pussy, and you sigh blissfully as it lovingly squeezes your throbbing length."]
+                  },
+                  {
+                        "NameOfScene": "IgnoredBlowjob",
+                        "theScene": [  "Izebel frowns in annoyance as you ignore her offer.",
+                                       "FocusedSpeaks",
+                                       "'Awww, you poor thing...maybe something else?'"]
+                  },
+                  {
+                        "NameOfScene": "Ignore her offer.",
+                        "theScene": [  "You think of resisting Izebel's offer of her services, but her sexual prowess is making it a little hard to think straight...",
+                                       "StatCheck",
+                                       "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "25", "2",
+                                       "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "50", "3",
+                                       "ChangeStatCheckDifficulty", "IfFetishLevelEqualOrGreater", "Oral", "75", "5",
+                                       "ChangeStatCheckDifficulty", "IfPlayerHasStatusEffect", "Charm", "4",
+                                       "Temptation", "20", "IgnoredBlowjob",
+                                       "Fail",
+                                       "CantResistOral"]
+                                      }
+            ]
+}

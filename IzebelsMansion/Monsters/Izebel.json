@@ -12,9 +12,9 @@
     "perks": ["Dominatrix", "Alluring", "Sensual Pace", "Unbounded", "Seductive Touch", "Ecstatic Strike", "Enticing Touch"],
     "stats": { "lvl": "40",
               "Exp": "500",
-              "max_hp": "850",
+              "max_hp": "400",
               "max_ep": "10",
-              "max_sp": "1",
+              "max_sp": "2",
               "Power": "18",
               "Technique": "40",
               "Intelligence": "27",
@@ -23,7 +23,7 @@
               "Luck": "10"
     },
     "Fetishes": [ ""],
-    "BodySensitivity": { "Sex": "120",
+    "BodySensitivity": { "Sex": "125",
               "Ass": "60",
               "Breasts": "90",
               "Mouth": "90",
@@ -31,14 +31,14 @@
               "Magic": "100",
               "Pain": "100",
               "Holy": "60",
-              "Unholy": "150"
+              "Unholy": "125"
     },
     "resistancesStatusEffects": {
               "Stun": "-10",
               "Charm": "999",
               "Aphrodisiac": "50",
               "Restraints": "0",
-              "Sleep": "999",
+              "Sleep": "100",
               "Trance": "25",
               "Paralysis": "0",
               "Debuff": "10"
@@ -70,7 +70,7 @@
                         {
                             "lineTrigger": "StartOfCombat",
                             "move": "",
-                            "theText" : ["|f|CallCombatEventAndScene|/|DominatrixCombatEvents|/|Dominatrix|n|"]
+                            "theText" : ["|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|Dominatrix|n|"]
                         },
                         {
                             "lineTrigger": "HitWith",
@@ -94,14 +94,12 @@
                         {
                             "lineTrigger": "HitWith",
                             "move": "Demon Layer",
-                            "theText": [ "'My my, aren't we the Devil today?'",
-                                         "I'm surprised, I've never had the opportunity with another Dom in the room."]
+                            "theText": [ "'My my, aren't we the Devil today?'|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|I'm Not Your Damn Saint"]
                         },
                         {
                             "lineTrigger": "HitWith",
                             "move": "Holy Headpat",
-                            "theText": [ "'I don't mind being your devil, but keep the saint out of it.'",
-                                         "'That kind of flattery goes nowhere with me.'"]
+                            "theText": [ "'I don't mind being your devil, but keep the saint out of it.'|f|CallCombatEventAndScene|/|IzebelCombatEvents|/|I'm Not Your Damn Saint"]
                         },
                         {
                             "lineTrigger": "HitWith",
