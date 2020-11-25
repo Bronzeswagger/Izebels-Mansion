@@ -97,6 +97,16 @@
                        "NameOfScene": "CantResistOffer",
                        "theScene": [ "ApplyStance", "Sex",
                                      "Without a second thought you accept her offer, your mind too focused on thoughts of sex to even think of resisting the temptation of her warm tight pussy."]
+               },
+               {
+                       "NameOfScene": "Hair Whip"
+                       "theScene": [ "SetPostName", "- Random Hair Whip",
+                                     "HitplayerWith",
+                                     "Hair Whip",
+                                     "FocusedSpeaksSkill",
+                                     "'Oops, Heehee, I don't know what came over me~♥'",
+                                     "FocusedSpeaks",
+                                     "Fumiko randomly whipped the player with her tentacle like hair for no reason!"]
                }
 ]
 }
