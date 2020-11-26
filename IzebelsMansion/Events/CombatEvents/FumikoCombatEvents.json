@@ -28,7 +28,7 @@
                 },
                 {
                       "NameOfScene": "Hair Trigger",
-                      "theScene":[ : "SetPostName", "- Hair Trigger",
+                      "theScene":[   "SetPostName", "- Hair Trigger",
                                      "HitPlayerWith",
                                      "Hair Whip",
                                      "Speaks",
@@ -99,7 +99,7 @@
                                      "Without a second thought you accept her offer, your mind too focused on thoughts of sex to even think of resisting the temptation of her warm tight pussy."]
                },
                {
-                       "NameOfScene": "Hair Whip"
+                       "NameOfScene": "Hair Whip",
                        "theScene": [ "SetPostName", "- Random Hair Whip",
                                      "HitplayerWith",
                                      "Hair Whip",
