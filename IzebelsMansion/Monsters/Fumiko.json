@@ -12,7 +12,7 @@
 	"perks": ["KissingAdverse", "Alluring", "Sadist", "Semen Frenzy", "Clingy"],
 	"stats": {
 		"lvl": "30",
-		"Exp": "500",
+		"Exp": "600",
 		"max_hp": "500",
 		"max_ep": "10",
 		"max_sp": "1",
@@ -60,6 +60,13 @@
 		"picture": ""
 	}],
 	"combatDialogue": [{
+      "lineTrigger": "SetMusicTo",
+      "move": "",
+      "theText": [
+				"../../Mods/IzebelsMansion/Music/Fumiko_Battle_-_Dance_Of_Death.mp3"
+			]
+    },
+		{
 			"lineTrigger": "UsesMove",
 			"move": "Hairjob",
 			"theText": [
@@ -497,7 +504,7 @@
 		"setYalign": "0.0",
 		"Images": [{
 			"Name": "Fumiko",
-			"File": "../Mods/IzebelsMansion/Images/Monsters/fumiko.png",
+			"File": "../Mods/IzebelsMansion/Images/Monsters/Fumiko.png",
 			"setXalign": "0.0",
 			"setYalign": "0.0"
 		}]

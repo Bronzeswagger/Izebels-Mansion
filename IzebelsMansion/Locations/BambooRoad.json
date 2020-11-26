@@ -1,0 +1,70 @@
+{
+    "name": "Bamboo Road",
+    "exploreTitle": "Bamboo Road",
+    "MusicList": ["../../Mods/IzebelsMansion/Music/Bamboo_Road_-_God_Tree.mp3"],
+    "mapIcon": "../../Mods/IzebelsMansion/Images/MGD_Bamboo_Road_Map_Icon.png",
+    "mapIconXpos": "0",
+    "mapIconYpos": "0",
+    "mapIconZorder": "1",
+    "mapClouds": "",
+    "mapCloudsXpos": "0",
+    "mapCloudsYpos": "0",
+    "requires": ["Sigil Of Will-Power"],
+    "FullyUnlockedBy": [""],
+    "MinimumDeckSize": "7",
+    "MaximumMonsterDeck": "5",
+    "MaximumEventDeck": "3",
+    "Monsters": ["DarkKunoichi", "Tengu", "TenguHarpyBR", "Ren Xiongmao", "Kasa-Obake", "Bunyip"],
+    "MonsterGroups": [
+                  {
+                      "Monsters": ["DarkKunoichi"]
+                  },
+                  {
+                      "Monsters": ["DarkKunoichi", "DarkKunoichi"]
+                  },
+                  {
+                      "Monsters": ["Kasa-Obake"]
+                  },
+                  {
+                      "Monsters": ["TenguHarpy"]
+                  },
+                  {
+                      "Monsters": ["Tengu"]
+                  },
+                  {
+                      "Monsters": ["Bunyip"]
+                  },
+                  {
+                      "Monsters": ["Ren Xiongmao"]
+                  },
+                  {
+                      "Monsters": ["Ren Xiongmao", "Ren Xiongmao"]
+                  }
+                ],
+    "Events": ["Aruka the Jokester", "Fumiko's Trap", "Bamboo Cemetary"],
+    "Quests": ["Stop the Jokester", "Find Bamboo Leaves", "Jiangshi Trouble"],
+    "Adventures": ["Visit Izebel"],
+    "Treasure": [
+                {
+                    "Common": ["Calming Potion", "Energy Potion", "Conscio Powder", "Sealing Talisman", "Perverted Talisman"]
+                },
+                {
+                    "Uncommon": ["Conscio Powder", "Sealing Talisman", "Perverted Talisman", "Nature Rune", "Mini Elixir"]
+                },
+                {
+                    "Rare": ["Nature Rune", "Elixir", "Silver Rune", "Enlightenment Rune", "Sinister Black Gloves", "Bamboo Leaf", "Ring of Spirit"]
+                }
+              ],
+    "Eros": [
+                {
+                    "Common": "400"
+                },
+                {
+                    "Uncommon": "650"
+                },
+                {
+                    "Rare": "900"
+                }
+              ],
+    "picture": "../Mods/IzebelsMansion/Images/bambooroad.jpg"
+}
