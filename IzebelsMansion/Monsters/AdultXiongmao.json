@@ -1,6 +1,6 @@
 {
-    "name": "Pandawoman",
-    "IDname": "Pandawoman",
+    "name": "Adult Xiongmao",
+    "IDname": "Adult Xiongmao",
     "species": "Bear",
     "gender": "female",
     "description": "",
@@ -9,18 +9,18 @@
     "generic": "False",
     "requires": [ ""],
     "skillList": [""],
-    "perks": [ "Pacing"],
-    "stats": { "lvl": "10",
-              "Exp": "200",
-              "max_hp": "300",
+    "perks": [ ""],
+    "stats": { "lvl": "20",
+              "Exp": "100",
+              "max_hp": "200",
               "max_ep": "100",
-              "max_sp": "3",
+              "max_sp": "2",
               "Power": "10",
-              "Technique": "10",
-              "Intelligence": "10",
-              "Willpower": "5",
-              "Allure": "40",
-              "Luck": "5"
+              "Technique": "32",
+              "Intelligence": "19",
+              "Willpower": "7",
+              "Allure": "32",
+              "Luck": "2"
     },
     "Fetishes": [ ""],
     "BodySensitivity": { "Sex": "125",
@@ -77,20 +77,20 @@
                             ],
                     "pictures": [
                                   {
-                                      "Name": "",
-                                      "StartOn": "1",
-                                      "AlwaysOn": "1",
-                                      "IsScene": "0",
-                                      "TheBody": "1",
-                                      "Overlay": "No",
-                                      "setXalign": "0.0",
-                                      "setYalign": "0.0",
-                                      "Images": [
-                                      {
-                                          "Name": "",
-                                          "File": "",
-                                          "setXalign": "0.0",
-                                          "setYalign": "0.0"
+                                    "Name": "Base",
+                                    "StartOn": "1",
+                                    "AlwaysOn": "1",
+                                    "IsScene": "0",
+                                    "TheBody": "1",
+                                    "Overlay": "No",
+                                    "setXalign": "0.0",
+                                    "setYalign": "0.0",
+                                    "Images": [
+                                    {
+                                    "Name": "Base",
+                                    "File": "../Mods/IzebelsMansion/Images/Monsters/Izebel/izebeldummy.jpg",
+                                    "setXalign": "0.0",
+                                    "setYalign": "0.0"
                                       }
                                     ]
                                   }

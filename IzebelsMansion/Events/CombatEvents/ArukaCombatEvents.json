@@ -1,0 +1,24 @@
+{
+    "name": "ArukaCombatEvents",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "Aruka",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+               ],
+    "EventText": [
+                 {
+                      "NameOfScene": "Drunken Monke",
+                      "theScene":[   "SetPostName", " - Drunken Style",
+                                     "As Aruka plays around with you, she takes her gourd and drinks down some of her booze. You notice a difference in her fighting game immediately as her entire focus becomes lost.",
+                                     "GivePerkToMonster", "Drunken Style",
+                                     "Speaks",
+                                     "HaHa...you'll be surprised by the tricks up my sleeve"]
+                 }
+]
+}

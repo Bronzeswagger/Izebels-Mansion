@@ -18,7 +18,7 @@
 		"max_sp": "1",
 		"Power": "25",
 		"Technique": "15",
-		"Intelligence": "15",
+		"Intelligence": "20",
 		"Allure": "40",
 		"Willpower": "10",
 		"Luck": "15"
@@ -26,11 +26,11 @@
 	"Fetishes": [""],
 	"BodySensitivity": {
 		"Sex": "90",
-		"Ass": "120",
+		"Ass": "100",
 		"Breasts": "90",
 		"Mouth": "150",
-		"Seduction": "100",
-		"Magic": "80",
+		"Seduction": "70",
+		"Magic": "70",
 		"Pain": "120",
 		"Holy": "100",
 		"Unholy": "100"
@@ -42,9 +42,9 @@
 		"Aphrodisiac": "50",
 		"Restraints": "15",
 		"Sleep": "25",
-		"Trance": "15",
+		"Trance": "0",
 		"Paralysis": "0",
-		"Debuff": "10"
+		"Debuff": "15"
 	},
 	"moneyDropped": "500",
 	"ItemDropList": [{

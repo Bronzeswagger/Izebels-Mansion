@@ -1,0 +1,14 @@
+{
+    "name": "Stain of Lipstick",
+    "description": "Permanently increases all exp gains by 5%.",
+
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "ExpBoost"],
+    "EffectPower": [ "5"],
+
+    "PlayerCanPurchase": "No"
+}

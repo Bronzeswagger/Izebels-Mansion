@@ -1,0 +1,189 @@
+{
+	"name": "Aruka",
+	"IDname": "Aruka",
+	"species": "Beast",
+	"gender": "female",
+	"description": "",
+	"encyclopedia": "",
+	"tags": "none",
+	"generic": "False",
+	"requires": [""],
+	"skillList": ["Monkeying Around", "DextriousFootjob", "PrimitiveBlowjob", "MonkeyTailjob", "MonkeyTailStrokes", "MonkeyHandStrokes", "PrimitiveVaccumSuck", "DextriousFootPump", "Drunken Monke", "Grease & Please", "PrimitiveFootStroke", "MischieviousTailStroke"],
+	"perks": ["AnalAdverse", "Tricky", "Unshackled", "Evasive"],
+	"stats": {
+		"lvl": "30",
+		"Exp": "600",
+		"max_hp": "500",
+		"max_ep": "10",
+		"max_sp": "1",
+		"Power": "30",
+		"Technique": "10",
+		"Intelligence": "15",
+		"Allure": "15",
+		"Willpower": "25",
+		"Luck": "30"
+	},
+	"Fetishes": [""],
+	"BodySensitivity": {
+		"Sex": "120",
+		"Ass": "150",
+		"Breasts": "70",
+		"Mouth": "90",
+		"Seduction": "70",
+		"Magic": "100",
+		"Pain": "90",
+		"Holy": "100",
+		"Unholy": "100"
+
+	},
+	"resistancesStatusEffects": {
+		"Stun": "15",
+		"Charm": "30",
+		"Aphrodisiac": "15",
+		"Restraints": "30",
+		"Sleep": "15",
+		"Trance": "0",
+		"Paralysis": "0",
+		"Debuff": "30"
+	},
+	"moneyDropped": "500",
+	"ItemDropList": [{
+		"name": "Monkey Queen Charm",
+		"dropChance": "30"
+	}],
+	"lossScenes": [{
+		"NameOfScene": "",
+		"move": "",
+		"stance": "",
+		"includes": [""],
+		"theScene": [""],
+		"picture": ""
+	}],
+	"combatDialogue": [{
+      "lineTrigger": "SetMusicTo",
+      "move": "",
+      "theText": [
+				"../../Mods/IzebelsMansion/Music/Aruka_Battle-_Hanashi_no_Mai.mp3"
+			]
+    },
+		{
+			"lineTrigger": "UsesMove",
+			"move": "",
+			"theText": [
+				"''",
+				"''",
+				"''"
+			]
+		},
+		{
+			"lineTrigger": "HitWith",
+			"move": "",
+			"theText": [
+				"''",
+				"''",
+				"''"
+			]
+		},
+		{
+			"lineTrigger": "HitWithA",
+			"move": [""],
+			"theText": [
+				"''",
+				"''",
+				""
+			]
+		},
+		{
+			"lineTrigger": "StanceStruggle",
+			"move": "",
+			"theText": [
+				""
+			]
+		},
+		{
+			"lineTrigger": "StanceStruggleFail",
+			"move": "",
+			"theText": [
+				""
+			]
+		},
+		{
+			"lineTrigger": "StanceStruggleFree",
+			"move": "",
+			"theText": [
+				""
+			]
+		},
+		{
+			"lineTrigger": "StanceStruggleComment",
+			"move": [""],
+			"theText": [
+				"''"
+			]
+		},
+		{
+			"lineTrigger": "StanceStruggleFreeComment",
+			"move": [""],
+			"theText": [
+				"''",
+				"''"
+			]
+		},
+		{
+			"lineTrigger": "LowHealth",
+			"move": "",
+			"theText": [
+				"''",
+				"''",
+				"''"
+			]
+		},
+		{
+			"lineTrigger": "PlayerLowHealth",
+			"move": "",
+			"theText": [
+				"''",
+				"''"
+			]
+		},
+		{
+			"lineTrigger": "OnPlayerOrgasm",
+			"move": "",
+			"theText": [""]
+		},
+		{
+			"lineTrigger": "onOrgasm",
+			"move": "",
+			"theText": [""]
+		},
+		{
+			"lineTrigger": "OnSurrender",
+			"move": "",
+			"theText": [""]
+		}
+	],
+	"victoryScenes": [{
+		"NameOfScene": "",
+		"move": "",
+		"stance": "",
+		"includes": [""],
+		"theScene": [""],
+		"picture": ""
+	}],
+	"pictures": [{
+		"Name": "Fumiko",
+		"StartOn": "1",
+		"AlwaysOn": "1",
+		"IsScene": "0",
+		"TheBody": "1",
+		"Overlay": "No",
+		"setXalign": "0.0",
+		"setYalign": "0.0",
+		"Images": [{
+			"Name": "Fumiko",
+			"File": "../Mods/IzebelsMansion/Images/Monsters/Aruka.png",
+			"setXalign": "0.0",
+			"setYalign": "0.0"
+		}]
+	}]
+}

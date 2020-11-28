@@ -1,5 +1,5 @@
 {
-    "name": "Green Bamboo Tea",
+    "name": "Client Card",
     "itemType": "Key",
     "cost": "0",
     "requires": [ ""],
@@ -11,13 +11,13 @@
                           "Choice": ""
                         }
                       ],
-    "descrip": "A green tea made from bamboo leaves, its said to relax the spirit. As long as you have this, you'll get new visitors during the daytime at the bar and your Spirit is increased by 1.",
-    "perks": [ ""],
+    "descrip": "A blank white card with no pattern, symbol, or literation that was given to you by Izebel, it seemed important, so you decided to keep it. Unlocks special privileges at the shop on Bamboo Hill and strangely increases your Experience gains by 5%.",
+    "perks": [ "Stain of Lipstick"],
     "skills": [],
 
     "hp": "0",
     "ep": "0",
-    "sp": "1",
+    "sp": "0",
 
     "Exp": "0",
     "Power": "0",

@@ -1,0 +1,14 @@
+{
+    "name": "Drunken Style",
+    "description": "Aruka drinked some of her booze, and now is in her drunken combat stance! For 4 turns, her initiative is increased by 10, and her critical hit chance increased by 20%, but she's vulnerable to Sleep and Stun.",
+
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "StatusIcon", "TurnDuration", "InitiativeBonus", "CritChanceBoost", "SleepRes", "StunRes"],
+    "EffectPower": [ "../Mods/IzebelsMansion/Images/Drunken_Style.png", "4", "10", "20", "-35", "-35"],
+
+    "PlayerCanPurchase": "No"
+}

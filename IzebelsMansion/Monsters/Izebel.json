@@ -8,7 +8,7 @@
     "tags": "none",
     "generic": "False",
     "requires": [ ""],
-    "skillList": ["Seductive Titfuck", "Seductive Blowjob", "Dominatrix Charm", "Wild Bamboo Ride", "Pierced Breast Tease", "Sleepy Boy Toy", "Hypnotic Suggestion", "Sexual Promise", "Pressure Titfuck", "Sensual Gyration", "Kiss", "Make Out", "Sensually Seductive Kiss", "Skillfully Passionate Kiss", "Sensual Shocks", "Arousara", "Bamboo Handling"],
+    "skillList": ["Seductive Titfuck", "Seductive Blowjob", "Dominatrix Charm", "Wild Bamboo Ride", "Pierced Breast Tease", "Sleepy Boy Toy", "Hypnotic Suggestion", "Sexual Promise", "Pressure Titfuck", "Sensual Gyration", "Kiss", "Make Out", "Sensually Seductive Kiss", "Skillfully Passionate Kiss", "Sensual Shocks", "Kiss of Acid Rain", "Bamboo Handling"],
     "perks": ["Dominatrix", "Alluring", "Sensual Pace", "Unbounded", "Seductive Touch", "Ecstatic Strike", "Enticing Touch"],
     "stats": { "lvl": "40",
               "Exp": "500",
@@ -38,10 +38,10 @@
               "Charm": "999",
               "Aphrodisiac": "50",
               "Restraints": "0",
-              "Sleep": "100",
-              "Trance": "25",
+              "Sleep": "999",
+              "Trance": "0",
               "Paralysis": "0",
-              "Debuff": "10"
+              "Debuff": "15"
     },
     "moneyDropped": "1000",
     "ItemDropList": [
