@@ -5,7 +5,7 @@
     "MonsterGroups": [
 
                   {
-                      "Monsters": [ "Izebel"]
+                      "Group": [ "Izebel"]
                   }
 
                 ],

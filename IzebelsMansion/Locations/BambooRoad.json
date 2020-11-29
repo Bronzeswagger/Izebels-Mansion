@@ -17,28 +17,28 @@
     "Monsters": ["DarkKunoichi", "Tengu", "TenguHarpyBR", "Ren Xiongmao", "Kasa-Obake", "Bunyip"],
     "MonsterGroups": [
                   {
-                      "Monsters": ["DarkKunoichi"]
+                      "Group": ["DarkKunoichi"]
                   },
                   {
-                      "Monsters": ["DarkKunoichi", "DarkKunoichi"]
+                      "Group": ["DarkKunoichi", "DarkKunoichi"]
                   },
                   {
-                      "Monsters": ["Kasa-Obake"]
+                      "Group": ["Kasa-Obake"]
                   },
                   {
-                      "Monsters": ["TenguHarpyBR"]
+                      "Group": ["TenguHarpyBR"]
                   },
                   {
-                      "Monsters": ["Tengu"]
+                      "Group": ["Tengu"]
                   },
                   {
-                      "Monsters": ["Bunyip"]
+                      "Group": ["Bunyip"]
                   },
                   {
-                      "Monsters": ["Ren Xiongmao"]
+                      "Group": ["Ren Xiongmao"]
                   },
                   {
-                      "Monsters": ["Ren Xiongmao", "Ren Xiongmao"]
+                      "Group": ["Ren Xiongmao", "Ren Xiongmao"]
                   }
                 ],
     "Events": ["Aruka the Jokester", "Fumiko's Trap", "Bamboo Cemetary"],
