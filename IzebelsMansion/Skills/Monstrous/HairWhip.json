@@ -23,7 +23,7 @@
     "maxRange": "110",
     "recoil": "0",
     "targetType": "single",
-    "statusEffect": "Attack",
+    "statusEffect": "Damage",
     "statusChance": "80",
     "statusDuration": "4",
     "statusPotency": "-10",

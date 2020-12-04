@@ -8,7 +8,7 @@
     "tags": "none",
     "generic": "False",
     "requires": [ ""],
-    "skillList": ["Seductive Titfuck", "Seductive Blowjob", "Dominatrix Charm", "Wild Bamboo Ride", "Pierced Breast Tease", "Sleepy Boy Toy", "Hypnotic Suggestion", "Sexual Promise", "Pressure Titfuck", "Sensual Gyration", "Kiss", "Make Out", "Sensually Seductive Kiss", "Skillfully Passionate Kiss", "Sensual Shocks", "Kiss of Acid Rain", "Bamboo Handling"],
+    "skillList": ["Seductive Titfuck", "Seductive Blowjob", "Dominatrix Charm", "Wild Bamboo Ride", "Pierced Breast Tease", "Sleepy Boy Toy", "Hypnotic Suggestion", "Sexual Promise", "Pressure Titfuck", "Sensual Gyration", "Kiss", "Make Out", "Sensually Seductive Kiss", "Skillfully Passionate Kiss", "Sensual Shocks", "Kiss of Acid Rain", "Bamboo Handling", "Deepthroat", "Oral Tease", "Playful Tease"],
     "perks": ["Dominatrix", "Alluring", "Sensual Pace", "Unbounded", "Seductive Touch", "Ecstatic Strike", "Enticing Touch"],
     "stats": { "lvl": "40",
               "Exp": "500",
@@ -211,23 +211,23 @@
                             "theText": [ "Izebel does a playful yawn, but it didn't work" ]
                         },
                         {
-                            "lineTrigger": "HitWithA",
+                            "lineTrigger": "HitWith",
                             "move": ["Thrust", "Channeling Thrust"],
                             "theText": [ "'MMmmm...I'm going to fuck you senseless.♥'"]
                         },
                         {
-                            "lineTrigger": "HitWithA",
+                            "lineTrigger": "HitWith",
                             "move": ["Pound", "Multi Thrust", "Carrying Fuck"],
                             "theText": [ "{i}Ahh!♥ Yes!♥ Make me yours!{i}♥",
                                          "'Aaaah!♥'"]
                         },
                         {
-                            "lineTrigger": "HitWithA",
+                            "lineTrigger": "HitWith",
                             "move": "Empowered Thrust",
                             "theText": [ "{i}Mmm...faster! Harder!{/i}"]
                         },
                         {
-                            "lineTrigger": "HitWithA",
+                            "lineTrigger": "HitWith",
                             "move": ["Tantric Thrust", "Passionate Lovemaking"],
                             "theText": [ "'She bites her lip as she grabs a hold of you'",
                                          "{i}Mmmm....fucking stud is making a whore out of me! ♥♥♥{/i}",

@@ -14,7 +14,7 @@
     "unusableIfStance": [ "Making Out", "Blowjob"],
     "requiresTargetStance": [ "Any"],
     "unusableIfTarget": [ "Sex", "Anal", "Titfuck", "Making Out"],
-    "unusableIfTargetHasTheseSets": [[ "Blowjob", "Blowjob", "Blowjob", "Blowjob", "Blowjob"]],
+    "unusableIfTargetHasTheseSets": [[ "Blowjob"]],
     "removesStance": "None",
     "requiresStatusEffect": "None",
     "requiresStatusPotency": "0",
